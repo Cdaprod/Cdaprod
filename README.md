@@ -1,6 +1,5 @@
 # Welcome to David's Personal GitHub Wiki! 👋
 
-![Visitor count](https://visitor-badge.glitch.me/badge?page_id=cdaprod.visitor-badge)
 [![Personal website](https://img.shields.io/badge/Personal_Website-FF7139?style=flat&logoColor=white)](https://yourwebsite.com)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cdaprod&hide=contribs,prs)
