@@ -1,6 +1,6 @@
 # Welcome to David's Personal GitHub Wiki! 👋
 
-Welcome to the personal GitHub Wiki of David Cannan! Here, you'll learn more about me, my coding journey, and my love for Markdown, among the many other topics I see on a regular basis (today we’re covering markdown 😂). I hope you enjoy getting to know me better and find some useful information along the way. Please, make yourself at home!
+Welcome to the personal GitHub Wiki of David Cannan! Here, you'll learn more about me, my coding journey. I hope you enjoy getting to know me better and find some useful information along the way. Please, make yourself at home!
 
 
 ## About Me
