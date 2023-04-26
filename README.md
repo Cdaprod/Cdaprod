@@ -5,7 +5,7 @@ Welcome to the personal GitHub Wiki of David Cannan! Here, you'll learn more abo
 
 ## About Me
 
-Hey there! I'm [Your Name], a software developer and Markdown enthusiast. When I'm not coding, you can find me hiking, playing video games, or trying out new recipes. I'm passionate about technology, and I'm always eager to learn and grow in this ever-evolving field.
+Hey there! I'm David, a software developer and Markdown enthusiast. When I'm not coding, I'm busy raising my kiddos. I'm passionate about technology, and I'm always eager to learn and grow in this ever-evolving field.
 
 ## My Coding Journey
 
