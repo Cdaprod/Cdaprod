@@ -1,7 +1,5 @@
 # Welcome to David's Personal GitHub Wiki! 👋
 
-[![Personal website](https://img.shields.io/badge/Personal_Website-FF7139?style=flat&logoColor=white)](https://my-skele-prod-9e3jys5vk-cdaprod.vercel.app/)
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cdaprod&hide=contribs,prs)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cdaprod&layout=compact)
 
