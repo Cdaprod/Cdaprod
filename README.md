@@ -16,10 +16,15 @@ Welcome to the personal GitHub Wiki of David Cannan! Here, you'll learn more abo
 
 ## About Me
 
-Hey there! I'm David, a software developer and Markdown enthusiast. When I'm not coding, I'm busy raising my kiddos. I'm passionate about technology, and I'm always eager to learn and grow in this ever-evolving field.
+Hey there! I'm David, an self taught developer and engineer, and technology enthusiast. When I'm not coding, I'm busy raising my kiddos. I'm passionate about technology, and I'm always eager to learn and grow in this ever-evolving field.
 
 ## My Coding Journey
 
 My adventure in programming began when I came across python years ago. It took time for me to evolve into someone who can appreciate what you can really do with code. Since then, I've become proficient in various languages, including Python, JavaScript, and C++. I've worked on a diverse range of projects, from web applications to machine learning algorithms. You can check out my work on my [GitHub Repositories](https://github.com/Cdaprod?tab=repositories) page.
 
-I'd love to connect with fellow developers, Markdown enthusiasts, or anyone curious about tech! Feel free to reach out on [Twitter](https://twitter.com/cdasmktcda) or [LinkedIn](https://www.linkedin.com/in/cdasmkt/). Happy coding! 😄
+I've created up my own infrastructure at home for testing purposes, which includes creating custom pipelines with tools like Git and Ansible server for deployment to my homelab. I've also established a MariaDB where Ive populated 35k collected entries to practice query optimization and learn about cyber security and CI/CD processes. Additionally, I'm honing my skills in processing data using languages such as Node.js and Python, and I'm building my own datasets for artificial intelligence applications.
+
+I'd love to connect with fellow developers, Markdown enthusiasts, or anyone curious about tech! Feel free to reach out on [Twitter](https://twitter.com/cdasmktcda) or [LinkedIn](https://www.linkedin.com/in/cdasmkt/). 
+[☕️](https://www.buymeacoffee.com/cdasmkt)
+
+Happy coding! 😄
