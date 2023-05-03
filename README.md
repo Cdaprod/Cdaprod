@@ -9,7 +9,7 @@
 [![Twitter profile](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/cdasmktcda)
 [![Facebook profile](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/davidacannan)
 [![GitHub profile](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/cdaprod)
-[![Personal website](https://img.shields.io/badge/Personal_Website-FF7139?style=flat&logoColor=white)](https://my-skele-prod-9e3jys5vk-cdaprod.vercel.app/)
+[![Personal website](https://img.shields.io/badge/Personal_Website-FF7139?style=flat&logoColor=white)](https://sanity.cdaprod.dev/)
 
 Welcome to the personal GitHub Wiki of David Cannan! Here, you'll learn more about me, my coding journey. I hope you enjoy getting to know me better and find some useful information along the way. Please, make yourself at home!
 
