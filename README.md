@@ -1,5 +1,7 @@
 # Welcome to David's Personal GitHub Wiki! 👋
 
+I design, implement, and analyze multi-faceted cybersecurity infrastructures, aiming to maintain core security principles including confidentiality, integrity, and ethics. Passionate about cybersecurity, I enjoy developing autonomous, efficient solutions that can positively impact an organization's security posture and resilience against cyber threats.
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cdaprod&hide=contribs,prs)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cdaprod&layout=compact)
 
