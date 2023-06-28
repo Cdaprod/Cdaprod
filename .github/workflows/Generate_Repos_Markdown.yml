@@ -1,0 +1,68 @@
+name: Fetch GitHub Links
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  fetch_links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Fetch links from README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -c "
+          import requests
+          import re
+
+          token = '$GITHUB_TOKEN'
+          query = '''
+          {
+            repository(owner: \"${{ github.repository_owner }}\", name: \"${{ github.event.repository.name }}\") {
+              object(expression: \"main:README.md\") {
+                ... on Blob {
+                  text
+                }
+              }
+            }
+          }
+          '''
+          headers = {
+              \"Authorization\": \"Bearer \" + token,
+              \"Content-Type\": \"application/json\"
+          }
+          response = requests.post(\"https://api.github.com/graphql\", json={'query': query}, headers=headers)
+
+          if response.status_code == 200:
+              content = response.json()[\"data\"][\"repository\"][\"object\"][\"text\"]
+              links = re.findall(r'\\[([^\\]]+)\\]\\(([^)]+)\\)', content)
+              with open(\"repos.md\", \"w\") as f:
+                  for link in links:
+                      f.write(f\"[{link[0]}]({link[1]})\\n\")
+          else:
+              print(\"Failed to fetch the content. Status code:\", response.status_code)
+          "
+      - name: Commit and push if it changed
+        run: |
+          git diff
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update repos.md" -a || exit 0
+          git push
