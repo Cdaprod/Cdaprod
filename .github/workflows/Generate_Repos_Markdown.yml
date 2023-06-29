@@ -31,7 +31,7 @@ jobs:
           token = '$GH_TOKEN'
           query = '''
           {
-            user(login: \"${{ github.repository_owner }}\") {
+            viewer {
               repositories(first: 100, privacy: PUBLIC) {
                 nodes {
                   name
@@ -48,7 +48,7 @@ jobs:
           response = requests.post(\"https://api.github.com/graphql\", json={'query': query}, headers=headers)
 
           if response.status_code == 200:
-              repositories = response.json()[\"data\"][\"user\"][\"repositories\"][\"nodes\"]
+              repositories = response.json()[\"data\"][\"viewer\"][\"repositories\"][\"nodes\"]
               with open(\"public_repos.md\", \"w\") as f:
                   f.write('# David Cannan’s Public Github Repositories\\n')
                   for repo in repositories:
