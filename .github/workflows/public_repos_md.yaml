@@ -1,0 +1,67 @@
+name: Fetch Public Repositories
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fetch_repos:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Fetch public repositories
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Replace with your secret name
+        run: |
+          python -c "
+          import requests
+
+          token = '$GH_TOKEN'
+          query = '''
+          {
+            viewer {
+              repositories(first: 100, privacy: PUBLIC) {
+                nodes {
+                  name
+                  url
+                }
+              }
+            }
+          }
+          '''
+          headers = {
+              \"Authorization\": \"Bearer \" + token,
+              \"Content-Type\": \"application/json\"
+          }
+          response = requests.post(\"https://api.github.com/graphql\", json={'query': query}, headers=headers)
+
+          if response.status_code == 200:
+              repositories = response.json()[\"data\"][\"viewer\"][\"repositories\"][\"nodes\"]
+              with open(\"public_repos.md\", \"w\") as f:
+                  f.write('# David Cannan’s Public Github Repositories\\n')
+                  for repo in repositories:
+                      if 'name' in repo and 'url' in repo:
+                          f.write(f'- [{repo["name"]}]({repo["url"]})\\n\\n')
+          else:
+              print(\"Failed to fetch the content. Status code:\", response.status_code)
+          "
+      - name: Commit and push if it changed
+        run: |
+          git diff
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update public_repos.md" -a || exit 0
+          git push
