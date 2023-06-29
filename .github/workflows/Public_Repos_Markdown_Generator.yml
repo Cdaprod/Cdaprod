@@ -50,8 +50,9 @@ jobs:
           if response.status_code == 200:
               repositories = response.json()[\"data\"][\"user\"][\"repositories\"][\"nodes\"]
               with open(\"public_repos.md\", \"w\") as f:
+                  f.write('# David Cannan’s Public Github Repositories\\n')
                   for repo in repositories:
-                      f.write(f\"[{repo['name']}]({repo['url']})\\n\")
+                      f.write(f'- [{repo["name"]}]({repo["url"]})\\n\\n')
           else:
               print(\"Failed to fetch the content. Status code:\", response.status_code)
           "
