@@ -1,4 +1,8 @@
-# Welcome to David's Personal GitHub Wiki! 👋
+# Welcome to David's Personal GitHub Wiki! 
+
+[Professional Statement](Professional_Security_Statement.md)
+
+I design, implement, and analyze multi-faceted cybersecurity infrastructures, aiming to maintain core security principles including confidentiality, integrity, and ethics. Passionate about cybersecurity, I enjoy developing autonomous, efficient solutions that can positively impact an organization's security posture and resilience against cyber threats.
 
 ![summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Cdaprod&theme=monokai)
 
