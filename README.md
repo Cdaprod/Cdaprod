@@ -1,6 +1,8 @@
 # Welcome to David's Personal GitHub Wiki! 
 
-[Professional Statement](Professional_Security_Statement.md)
+## [Professional Statement](Professional_Security_Statement.md)
+
+### [You can find my resumes here!](https://github.com/Cdaprod/cda.resumes)
 
 I design, implement, and analyze multi-faceted cybersecurity infrastructures, aiming to maintain core security principles including confidentiality, integrity, and ethics. Passionate about cybersecurity, I enjoy developing autonomous, efficient solutions that can positively impact an organization's security posture and resilience against cyber threats.
 
