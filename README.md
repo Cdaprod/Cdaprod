@@ -1,20 +1,23 @@
 # Welcome to David's Personal GitHub Wiki! 
 
-## [Professional Statement](Professional_Security_Statement.md)
+### CYBER SECURITY STATEMENT: [Professional Statement](Professional_Security_Statement.md) 📙
 
-### [You can find my resumes here!](https://github.com/Cdaprod/cda.resumes)
+### RESUMES: [You can find my resumes by clicking here!](https://github.com/Cdaprod/cda.resumes) 📙
 
 I design, implement, and analyze multi-faceted cybersecurity infrastructures, aiming to maintain core security principles including confidentiality, integrity, and ethics. Passionate about cybersecurity, I enjoy developing autonomous, efficient solutions that can positively impact an organization's security posture and resilience against cyber threats.
 
-![summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Cdaprod&theme=monokai)
-
-![Metrics](https://metrics.lecoq.io/cdaprod?template=classic&stargazers=1&lines=1&repositories=1&discussions=1&achievements=1&notable=1&activity=1&traffic=1&code=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&repositories.batch=100&repositories.forks=false&repositories.affiliations=owner&stargazers=false&stargazers.charts=true&stargazers.charts.type=classic&stargazers.worldmap=true&stargazers.worldmap.sample=0&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=2&repositories=false&repositories.pinned=0&repositories.starred=0&repositories.random=0&repositories.order=featured%2C%20pinned%2C%20starred%2C%20random&discussions=false&discussions.categories=true&discussions.categories.limit=0&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&notable=false&notable.from=organization&notable.repositories=false&notable.indepth=false&notable.types=commit&notable.self=true&activity=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&traffic=false&code=false&code.lines=12&code.load=400&code.days=3&code.visibility=public&config.timezone=Asia%2FNicosia)
-
+## My Github Activity Summary
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Cdaprod&theme=monokai)
+![](https://metrics.lecoq.io/cdaprod?template=classic&stargazers=1&lines=1&repositories=1&discussions=1&achievements=1&notable=1&activity=1&traffic=1&code=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&repositories.batch=100&repositories.forks=false&repositories.affiliations=owner&stargazers=false&stargazers.charts=true&stargazers.charts.type=classic&stargazers.worldmap=true&stargazers.worldmap.sample=0&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=2&repositories=false&repositories.pinned=0&repositories.starred=0&repositories.random=0&repositories.order=featured%2C%20pinned%2C%20starred%2C%20random&discussions=false&discussions.categories=true&discussions.categories.limit=0&achievements=false&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&notable=false&notable.from=organization&notable.repositories=false&notable.indepth=false&notable.types=commit&notable.self=true&activity=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&traffic=false&code=false&code.lines=12&code.load=400&code.days=3&code.visibility=public&config.timezone=Asia%2FNicosia)
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cdaprod&hide=contribs,prs)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cdaprod&layout=compact)
 
-![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/davidacannan.png)
+## Programming Languages
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=cdaprod&layout=compact)
 
+## Capture The Flag
+![](https://tryhackme-badges.s3.amazonaws.com/davidacannan.png)
+
+## Social Links
 [![LinkedIn profile](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cdasmkt)
 [![Twitter profile](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/cdasmktcda)
 [![Facebook profile](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/davidacannan)
@@ -39,7 +42,7 @@ I'd love to connect with fellow developers, Markdown enthusiasts, or anyone curi
 
 ---
 
-<p align="center">We Like working with:
+<p align="center">I Like working with:
  
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
@@ -87,7 +90,7 @@ I'd love to connect with fellow developers, Markdown enthusiasts, or anyone curi
     <kbd>Apps</kbd>
     <br>
     <br>
-    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+    <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
     <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
     <img width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
   </kbd>
