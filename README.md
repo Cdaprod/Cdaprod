@@ -3,9 +3,8 @@
 <h1 align="center">David's Personal GitHub Wiki</h1>
 
 <div align="center">
-  📙 <a href="Professional_Security_Statement.md">CYBER SECURITY STATEMENT</a>
-  •
-  📙 <a href="https://github.com/Cdaprod/cda.resumes">RESUMES</a>
+   <p></p><a href="Professional_Security_Statement.md">📙CYBER SECURITY STATEMENT📙</a></p>
+   <p><a href="https://github.com/Cdaprod/cda.resumes">📗RESUMES📗</a></p>
 </div>
 
 ---
