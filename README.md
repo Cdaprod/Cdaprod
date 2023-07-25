@@ -11,7 +11,7 @@
 ---
 
 <div align="center">
-  <i>I design, implement, and analyze multifaceted cybersecurity infrastructures, ensuring confidentiality, integrity, and ethics. Driven by a passion for cybersecurity, I craft efficient and autonomous solutions to enhance an organization's security.</i>
+  <i>I design, implement, and analyze multifaceted cybersecurity infrastructures, ensuring confidentiality, integrity, and ethics. Driven by a passion for cybersecurity, I craft efficient and autonomous solutions to enhance an organization's security, and one day obtain a degree in computer sciences and Security.</i>
 </div>
 
 ---
