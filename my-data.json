@@ -1,0 +1,28 @@
+{
+    "fullName": "David Cannan",
+    "location": "Douglasville, Georgia",
+    "title": "Software Engineer & DevOps Specialist",
+    "about": "Your brief bio highlighting your journey.",
+    "specializations": ["DevOps", "Cloud", "IaC", "SaaS"],
+    "brandingStatement": "Self-developed success journey.",
+    "socialLinks": {
+        "github": "https://github.com/Cdaprod",
+        "twitter": "https://twitter.com/cdasmktcda",
+        "linkedin": "https://www.linkedin.com/in/cdasmkt",
+        "blog": "https://Sanity.Cdaprod.dev"
+    },
+    "skills": ["Python", "Docker", "Kubernetes", "AWS"],
+    "tools": ["Jenkins", "Terraform", "Ansible"],
+    "platforms": ["Azure", "GCP"],
+    "projects": [
+        {
+            "name": "Project Name",
+            "description": "Short description of the project.",
+            "link": "Link to the project."
+        }
+    ],
+    "certifications": ["Certification1", "Certification2"],
+    "contactEmail": "davidacannan@gmail.com",
+    "hobbies": ["Hobby1", "Hobby2"],
+    "securityExpertise": ["Cloud", "Local Network", "Physical Exploit", ""],
+}
