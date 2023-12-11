@@ -3,9 +3,9 @@
 <h1 align="center">David's Personal GitHub Wiki</h1>
 
 <div align="center">
-  📙 <a href="Professional_Security_Statement.md">CYBER SECURITY STATEMENT</a>
-  •
-  📙 <a href="https://github.com/Cdaprod/cda.resumes">RESUMES</a>
+   <p></p><a href="Professional_Security_Statement.md">📙CYBER SECURITY STATEMENT📙</a></p>
+   <p><a href="https://github.com/Cdaprod/cda.resumes">📗MY RESUMES📗</a></p>
+   <p><a href="https://github.com/Cdaprod/cda.resumes">📘NOTABLE PROJECTS📘</a></p>
 </div>
 
 ---
@@ -74,7 +74,7 @@ Hey! I'm David, a self-taught tech aficionado. When I'm not buried in code, I'm 
 
 ### 🚀 My Coding Odyssey
 
-My tryst with programming commenced with Python years ago. That pivotal moment paved the way for me to appreciate the vast potential of code. Now adept in various languages including Python, JavaScript, and C++, I have diversified my projects from web applications to cutting-edge machine learning algorithms. Explore my ventures on my [GitHub Repositories](https://github.com/Cdaprod?tab=repositories) page.
+My journey with programming commenced with Python years ago. That pivotal moment paved the way for me to appreciate the vast potential of code. Now adept in various languages including Python, JavaScript, and C++, I have diversified my projects from web applications to cutting-edge machine learning algorithms. Explore my ventures on my [GitHub Repositories](https://github.com/Cdaprod?tab=repositories) page.
 
 I've architected my home-based infrastructure, incorporating custom pipelines with tools like Git and Ansible server for deployment. My MariaDB, with 35k handpicked entries, aids me in mastering query optimization and comprehending the nuances of cyber security and CI/CD processes. Further, I'm sharpening my skills in data processing using Node.js and Python while curating datasets for AI applications.
 
