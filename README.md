@@ -1,6 +1,6 @@
 # David's Developer Journey
 
-![Banner](/assets/banner.png)
+![Banner](B419057C-FD73-4687-808C-F3719C7CA4BD.png)
 
 Welcome to my GitHub! I'm David, a DevOps intern at MinIO, passionate about building personal AI solutions, exploring cutting-edge cloud storage technologies, and contributing to the open-source community. Here, you'll find projects that embody my journey from a self-taught enthusiast to a dedicated developer, crafting solutions with Python, the LangChain Framework, and Mistral LLM via LM Studios.
 
