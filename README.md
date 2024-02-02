@@ -1,113 +1,55 @@
-<!-- /path/README.md -->
+README.md
 
-<h1 align="center">David's Personal GitHub Wiki</h1>
+# David's Developer Journey
 
-![SMART Goals](/SMART_Goals_Markdown.md)
+![Banner](/assets/banner.jpg)
 
-<div align="center">
-   <p></p><a href="Professional_Security_Statement.md">📙CYBER SECURITY STATEMENT📙</a></p>
-   <p><a href="https://github.com/Cdaprod/cda.resumes">📗MY RESUMES📗</a></p>
-   <p><a href="https://github.com/Cdaprod/cda.resumes">📘NOTABLE PROJECTS📘</a></p>
-</div>
+Welcome to my GitHub! I'm David, a DevOps intern at MinIO, passionate about building personal AI solutions, exploring cutting-edge cloud storage technologies, and contributing to the open-source community. Here, you'll find projects that embody my journey from a self-taught enthusiast to a dedicated developer, crafting solutions with Python, the LangChain Framework, and Mistral LLM via LM Studios.
 
----
+## 🚀 Current Focus
 
-<div align="center">
-  <i>I design, implement, and analyze multifaceted cybersecurity infrastructures, ensuring confidentiality, integrity, and ethics. Driven by a passion for cybersecurity, I craft efficient and autonomous solutions to enhance an organization's security, and one day obtain a degree in computer sciences and Security.</i>
-</div>
+I am currently immersed in:
+- Enhancing cloud storage solutions at MinIO.
+- Developing personal AI applications using the OpenAI API.
+- Experimenting with containerization, Infrastructure as Code (IaC), and CI/CD pipelines to streamline development processes.
 
----
+## 💡 Projects
 
-<div align="center">
+Explore my repositories to see my work on:
+- **Web Applications**: Utilizing Python and JavaScript to create dynamic, user-friendly interfaces.
+- **Digital Downloads and Custom Bots**: Automating tasks and providing value through intelligent bots.
+- **Data Lake Applications**: Leveraging ML to analyze and extract insights from large datasets.
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Cdaprod&theme=monokai)
-![](https://metrics.lecoq.io/cdaprod?template=classic&config.timezone=Asia%2FNicosia)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cdaprod&hide=contribs,prs)
+## 🛠 Skills & Technologies
 
-</div>
+I am proficient in:
+- **Languages**: Python, JavaScript, Go, and Bash.
+- **DevOps**: GitHub Actions, Docker, Kubernetes, Terraform.
+- **Cloud Technologies**: AWS, GCP, Azure.
+- **Cyber Security & Bug Bounty Hunting**: Applying my knowledge to secure applications and infrastructure.
 
----
+## 🌱 Learning & Growth
 
-### 🛠 Programming Languages
+I'm on a continuous learning path, focusing on:
+- **Advanced AI & ML Techniques**: For building smarter applications.
+- **Cloud-Native Technologies**: To improve scalability and performance of cloud services.
+- **Software Architecture**: Designing resilient, scalable, and maintainable systems.
 
-<div align="center">
+## 📈 Passive Income Goals
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=cdaprod&layout=compact)
+I aim to establish passive income streams through:
+- **Software Development**: Creating valuable tools and applications.
+- **Content Creation**: Sharing knowledge and experiences on my [blog](https://Sanity.Cdaprod.dev).
 
-</div>
+## 🤝 Connect With Me
 
----
+Let's collaborate or chat about technology, programming, or anything interesting:
+- [Twitter (@cdasmktcda)](https://twitter.com/cdasmktcda)
+- [LinkedIn (cdasmkt)](https://www.linkedin.com/in/cdasmkt/)
+- [GitHub (Cdaprod)](https://github.com/Cdaprod)
 
-### 🏁 Capture The Flag
-
-<div align="center">
-
-![](https://tryhackme-badges.s3.amazonaws.com/davidacannan.png)
-
-</div>
-
----
-
-### 🌐 Connect With Me
-
-<div align="center">
-
-[![LinkedIn profile](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cdasmkt)
-[![Twitter profile](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/cdasmktcda)
-[![Facebook profile](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/davidacannan)
-[![GitHub profile](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/cdaprod)
-[![Personal website](https://img.shields.io/badge/Personal_Website-FF7139?style=flat&logoColor=white)](https://sanity.cdaprod.dev/)
-
-</div>
+Thank you for visiting my GitHub! Dive into my projects, and let's make something amazing together.
 
 ---
 
-<div align="center">
-
-Welcome to my GitHub Wiki! Dive deep into my coding journey, and I hope you discover intriguing insights about me. Feel at home!
-
-</div>
-
----
-
-### 👋 About Me
-
-Hey! I'm David, a self-taught tech aficionado. When I'm not buried in code, I'm cherishing moments with my kiddos. Passionate about tech, my quest for knowledge in this ever-evolving field never wanes.
-
-### 🚀 My Coding Odyssey
-
-My journey with programming commenced with Python years ago. That pivotal moment paved the way for me to appreciate the vast potential of code. Now adept in various languages including Python, JavaScript, and C++, I have diversified my projects from web applications to cutting-edge machine learning algorithms. Explore my ventures on my [GitHub Repositories](https://github.com/Cdaprod?tab=repositories) page.
-
-I've architected my home-based infrastructure, incorporating custom pipelines with tools like Git and Ansible server for deployment. My MariaDB, with 35k handpicked entries, aids me in mastering query optimization and comprehending the nuances of cyber security and CI/CD processes. Further, I'm sharpening my skills in data processing using Node.js and Python while curating datasets for AI applications.
-
-Want to discuss tech, Markdown, or just about anything? Connect on [Twitter](https://twitter.com/cdasmktcda) or [LinkedIn](https://www.linkedin.com/in/cdasmkt/). And if my work intrigues you, consider supporting me on [buymeacoffee](https://www.buymeacoffee.com/cdasmkt)!
-
----
-
-<div align="center">
-
-🛠 **Tools & Technologies I Prefer**
-
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-<!-- ... other badges ... -->
-  
-</div>
-
-<div align="center">
-  
-**Technologies Overview**
-
-<p style="display: inline-block;">
-  <!-- Icons and descriptions here... -->
-</p>
-
-</div>
-
----
-
-<div align="center">
-
-🚀 **Happy Coding!**
-
-</div>
-
+*Proudly made with 💻 and ☕ by David.*
