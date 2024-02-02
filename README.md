@@ -1,5 +1,3 @@
-README.md
-
 # David's Developer Journey
 
 ![Banner](/assets/banner.png)
