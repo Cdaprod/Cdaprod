@@ -3,7 +3,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/cdasmktcda?style=social)](https://twitter.com/cdasmktcda)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-cdasmkt-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/cdasmkt/)
 
-![Banner](B419057C-FD73-4687-808C-F3719C7CA4BD.
+![Banner](B419057C-FD73-4687-808C-F3719C7CA4BD.png)
 
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=Cdaprod&show_icons=true&theme=radical)
 
