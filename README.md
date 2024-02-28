@@ -1,8 +1,19 @@
 # David's Developer Journey
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/cdasmktcda?style=social)](https://twitter.com/cdasmktcda)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-cdasmkt-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/cdasmkt/)
+
 ![Banner](B419057C-FD73-4687-808C-F3719C7CA4BD.
 
-As a MinIO DevOps and an aspiring tech innovator, I'm deeply engaged in building personal AI solutions using the OpenAI API, Python LangChain Framework, and Mistral LLM via LM Studios. My journey into the tech world is self-taught, rooted in a passion for hacking, software engineering, DevOps, programming, cloud technologies, containerization, Infrastructure as Code (IaC), Software as a Service (SaaS), cybersecurity, and bug bounty hunting. Overcoming drug addiction, I've reshaped my life to focus on being a dedicated single father to my triplet boys, embodying resilience and determination.
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=Cdaprod&show_icons=true&theme=radical)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Cdaprod&theme=dark)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Cdaprod&layout=compact&theme=vision-friendly-dark)
+
+
+
+As a MinIO DevOps and an aspiring tech innovator, I'm deeply engaged in building personal AI solutions using the OpenAI API, Python LangChain Framework, and Mistral LLM via LM Studios. My journey into the tech world is self-taught, rooted in a passion for hacking, software engineering, DevOps, programming, cloud technologies, containerization, Infrastructure as Code (IaC), Software as a Service (SaaS), cybersecurity, and bug bounty hunting. Overcoming addiction, I've reshaped my life to focus on being a dedicated single father to my triplet boys, embodying resilience and determination.
 
 Currently, I'm honing my skills as a DevOps Intern at MinIO, where I'm writing [articles](https://blog.min.io/author/david-cannan) and gaining invaluable hands-on experience with cutting-edge cloud storage technologies. My ambition is to establish a strong personal brand as a self-made success in the tech field. I'm particularly interested in projects that offer financial potential, including software development for web apps, digital downloads, custom bots, and data lake applications with machine learning capabilities.
 
