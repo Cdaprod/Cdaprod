@@ -11,7 +11,7 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Cdaprod&layout=compact&theme=vision-friendly-dark)
 
-
+[My MinIO Publications List](https://github.com/Cdaprod/david-cannan-minio-blogs)
 
 As a MinIO DevOps and an aspiring tech innovator, I'm deeply engaged in building personal AI solutions using the OpenAI API, Python LangChain Framework, and Mistral LLM via LM Studios. My journey into the tech world is self-taught, rooted in a passion for hacking, software engineering, DevOps, programming, cloud technologies, containerization, Infrastructure as Code (IaC), Software as a Service (SaaS), cybersecurity, and bug bounty hunting. Overcoming addiction, I've reshaped my life to focus on being a dedicated single father to my triplet boys, embodying resilience and determination.
 
