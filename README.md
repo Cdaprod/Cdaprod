@@ -13,6 +13,8 @@
 
 [My MinIO Publications List](https://github.com/Cdaprod/david-cannan-minio-blogs)
 
+[My Resumes Repo](https://github.com/Cdaprod/cda.resumes)
+
 As a MinIO DevOps and an aspiring tech innovator, I'm deeply engaged in building personal AI solutions using the OpenAI API, Python LangChain Framework, and Mistral LLM via LM Studios. My journey into the tech world is self-taught, rooted in a passion for hacking, software engineering, DevOps, programming, cloud technologies, containerization, Infrastructure as Code (IaC), Software as a Service (SaaS), cybersecurity, and bug bounty hunting. Overcoming addiction, I've reshaped my life to focus on being a dedicated single father to my triplet boys, embodying resilience and determination.
 
 Currently, I'm honing my skills as a DevOps Intern at MinIO, where I'm writing [articles](https://blog.min.io/author/david-cannan) and gaining invaluable hands-on experience with cutting-edge cloud storage technologies. My ambition is to establish a strong personal brand as a self-made success in the tech field. I'm particularly interested in projects that offer financial potential, including software development for web apps, digital downloads, custom bots, and data lake applications with machine learning capabilities.
