@@ -31,6 +31,7 @@ With a goal to generate passive income, I'm keen on outlining key development st
 # 🚀 Current Focus
 
 I am deeply engrossed in:
+
 - Advancing MinIO's cloud storage capabilities, focusing on efficiency and scalability.
 - Creating innovative personal AI tools, leveraging the OpenAI API for diverse applications.
 - Enhancing development workflows through containerization, Infrastructure as Code (IaC), and robust CI/CD pipelines to optimize efficiency and reliability.
@@ -38,6 +39,7 @@ I am deeply engrossed in:
 ## 💡 Projects
 
 My GitHub repositories showcase my ventures in:
+
 - **Web Applications**: Crafting dynamic, intuitive interfaces with Python and JavaScript, focusing on user engagement and functionality.
 - **Digital Downloads and Custom Bots**: Developing automated solutions and bots that streamline tasks, enhance productivity, and offer unique digital experiences.
 - **Data Lake Applications with ML**: Utilizing machine learning to delve into vast datasets, extracting valuable insights and facilitating data-driven decision-making.
@@ -45,6 +47,7 @@ My GitHub repositories showcase my ventures in:
 ## 🛠 Skills & Technologies
 
 My technical toolkit includes:
+
 - **Languages**: Mastery in Python, JavaScript, Go, and Bash, enabling versatile software development.
 - **DevOps Tools**: Proficient with GitHub Actions, Docker, Kubernetes, and Terraform for seamless development and deployment.
 - **Cloud Platforms**: Skilled in deploying and managing applications on AWS, GCP, and Azure, ensuring high availability and performance.
@@ -53,6 +56,7 @@ My technical toolkit includes:
 ## 🌱 Learning & Growth
 
 My journey of exploration and enhancement focuses on:
+
 - **Advanced AI & ML Techniques**: Pursuing deeper knowledge in AI and ML to build more intelligent and adaptive applications.
 - **Cloud-Native Technologies**: Embracing the latest in cloud-native solutions to boost the scalability and resilience of cloud services.
 - **Software Architecture**: Committing to the design of robust, scalable, and maintainable software architectures that stand the test of time.
@@ -60,12 +64,14 @@ My journey of exploration and enhancement focuses on:
 ## 📈 Passive Income Goals
 
 My aspirations for generating passive income include:
+
 - **Software Development**: Innovating and developing software solutions that solve real-world problems, providing continuous value.
 - **Content Creation**: Sharing insights, tutorials, and experiences through my [blog](https://Sanity.Cdaprod.dev) to educate and inspire others.
 
 ## 🤝 Connect With Me
 
 I'm eager to connect, collaborate, or simply chat about technology, programming, or any topic of mutual interest:
+
 - [Twitter (@cdasmktcda)](https://twitter.com/cdasmktcda)
 - [LinkedIn (cdasmkt)](https://www.linkedin.com/in/cdasmkt/)
 - [GitHub (Cdaprod)](https://github.com/Cdaprod)
