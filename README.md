@@ -1,15 +1,55 @@
-![Banner](B419057C-FD73-4687-808C-F3719C7CA4BD.png)
+<!-- Include custom CSS to adjust the margins of a specific image -->
+<style>
+.custom-image {
+  margin: 0; /* Remove default margins */
+  width: 100%; /* Make the image take the full width */
+  padding-top: -20px; /* Adjust the top padding to move the image higher */
+}
+</style>
 
-# David's Developer Journey
+<img src="Cdaprod.png" class="custom-image" alt="Description of the image">
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/cdasmktcda?style=social)](https://twitter.com/cdasmktcda)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-cdasmkt-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/cdasmkt/)
+<div style="text-align: center;">
+  <h1>David's Developer Journey</h1>
+</div>
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=Cdaprod&show_icons=true&theme=radical)
+<!-- Include custom CSS to align elements horizontally -->
+<style>
+.flex-container {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  flex-wrap: wrap; /* Wrap the items to the next line if needed */
+  gap: 10px; /* Add some space between the items */
+}
+.flex-container img {
+  max-width: 100%; /* Ensure images do not exceed their container width */
+}
+</style>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Cdaprod&theme=dark)
+<div class="flex-container">
+  <a href="https://twitter.com/cdasmktcda">
+    <img src="https://img.shields.io/twitter/follow/cdasmktcda?style=social" alt="Twitter Follow">
+  </a>
+  <a href="https://www.linkedin.com/in/cdasmkt/">
+    <img src="https://img.shields.io/badge/LinkedIn-cdasmkt-blue?style=flat&logo=linkedin" alt="LinkedIn">
+  </a>
+</div>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Cdaprod&layout=compact&theme=vision-friendly-dark)
+<div class="flex-container">
+  <img src="https://github-readme-stats.vercel.app/api?username=Cdaprod&show_icons=true&theme=radical" alt="Your GitHub Stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Cdaprod&theme=dark" alt="GitHub Streak">
+</div>
+
+<div class="flex-container">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cdaprod&layout=compact&theme=vision-friendly-dark" alt="Top Langs">
+</div>
+
+<!-- Include custom CSS to adjust the image size if necessary -->
+<style>
+.link-image {
+  width: 200px; /* Adjust the width as needed */
+}
+</style>
 
 [My MinIO Publications List](https://github.com/Cdaprod/david-cannan-minio-blogs)
 
@@ -40,6 +80,166 @@ My tech stack includes:
 - **Cyber Security**: Bug bounty hunting, digital environment security
 
 With a goal to generate passive income, I'm keen on outlining key development steps for quick project setup and execution, always looking for ways to leverage my skills for financial and professional growth.
+
+## My Custom Tools
+
+<style>
+  .preview-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .preview-card img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .preview-card h3 {
+    margin: 0;
+  }
+</style>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/cda.cdactl">
+    <img src="https://github.com/Cdaprod/cda.cdactl/raw/main/public/photo.webp" alt="cdaprod/cda.cdactl">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/cda.cdactl">cdaprod/cda.cdactl</a></h3>
+    A versatile CLI tool for streamlined device management. Features include network management, SSH access, system updates, backups, resource monitoring, dotfile management, and secure credential storage.
+  </div>
+</div>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/cda.cfg">
+    <img src="https://github.com/Cdaprod/cda.cfg/raw/main/public/photo.webp" alt="cdaprod/cda.cfg">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/cda.cfg">cdaprod/cda.cfg</a></h3>
+    Easily manage and synchronize your dotfiles across multiple devices using a bare Git repository setup. Ensure consistent development environments with seamless version control and deployment.
+  </div>
+</div>
+
+minio-weaviate-python
+
+minio-feature-store
+
+minio-weaviate-meta-store
+
+ai-docker-tool-agent
+
+mass-containerization
+
+deploy-to-swarm
+
+hydrate
+
+## My Custom Tools
+
+<style>
+  .preview-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .preview-card img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .preview-card h3 {
+    margin: 0;
+  }
+</style>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/cda.cdactl">
+    <img src="https://github.com/Cdaprod/cda.cdactl/raw/main/public/photo.webp" alt="cdaprod/cda.cdactl">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/cda.cdactl">cdaprod/cda.cdactl</a></h3>
+    A versatile CLI tool for streamlined device management. Features include network management, SSH access, system updates, backups, resource monitoring, dotfile management, and secure credential storage.
+  </div>
+</div>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/cda.cfg">
+    <img src="https://github.com/Cdaprod/cda.cfg/raw/main/public/photo.webp" alt="cdaprod/cda.cfg">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/cda.cfg">cdaprod/cda.cfg</a></h3>
+    Easily manage and synchronize your dotfiles across multiple devices using a bare Git repository setup. Ensure consistent development environments with seamless version control and deployment.
+  </div>
+</div>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/minio-weaviate-python">
+    <img src="https://github.com/Cdaprod/minio-weaviate-python/raw/main/public/photo.webp" alt="minio-weaviate-python">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/minio-weaviate-python">minio-weaviate-python</a></h3>
+    Integration of MinIO and Weaviate using Python for efficient object storage and retrieval in AI applications.
+  </div>
+</div>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/minio-feature-store">
+    <img src="https://github.com/Cdaprod/minio-feature-store/raw/main/public/photo.webp" alt="minio-feature-store">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/minio-feature-store">minio-feature-store</a></h3>
+    A feature store built with MinIO for scalable and efficient feature management in machine learning pipelines.
+  </div>
+</div>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/minio-weaviate-meta-store">
+    <img src="https://github.com/Cdaprod/minio-weaviate-meta-store/raw/main/public/photo.webp" alt="minio-weaviate-meta-store">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/minio-weaviate-meta-store">minio-weaviate-meta-store</a></h3>
+    A metadata store integrating MinIO and Weaviate for comprehensive data management and search capabilities.
+  </div>
+</div>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/ai-docker-tool-agent">
+    <img src="https://github.com/Cdaprod/ai-docker-tool-agent/raw/main/public/photo.webp" alt="ai-docker-tool-agent">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/ai-docker-tool-agent">ai-docker-tool-agent</a></h3>
+    A Docker-based tool agent for AI workflows, streamlining the deployment and management of AI models.
+  </div>
+</div>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/mass-containerization">
+    <img src="https://github.com/Cdaprod/mass-containerization/raw/main/public/photo.webp" alt="mass-containerization">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/mass-containerization">mass-containerization</a></h3>
+    Tools and scripts for mass containerization of applications, facilitating rapid deployment and scaling.
+  </div>
+</div>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/deploy-to-swarm">
+    <img src="https://github.com/Cdaprod/deploy-to-swarm/raw/main/public/photo.webp" alt="deploy-to-swarm">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/deploy-to-swarm">deploy-to-swarm</a></h3>
+    A repository with scripts and configurations for deploying applications to Docker Swarm clusters.
+  </div>
+</div>
+
+<div class="preview-card">
+  <a href="https://github.com/Cdaprod/hydrate">
+    <img src="https://github.com/Cdaprod/hydrate/raw/main/public/photo.webp" alt="hydrate">
+  </a>
+  <div>
+    <h3><a href="https://github.com/Cdaprod/hydrate">hydrate</a></h3>
+    Tools for data hydration, ensuring up-to-date and synchronized data across distributed systems.
+  </div>
+</div>
 
 ## 🚀 Current Focus
 
@@ -189,6 +389,7 @@ I'm eager to connect, collaborate, or simply chat about technology, programming,
 - **LinkedIn**: [David Cannan](https://www.linkedin.com/in/cdasmkt/)
 - **GitHub**: [Cdaprod](https://github.com/Cdaprod)
 
+---
 
 ##Here is a more extensive list of my top public and private repositories from the `cda_POSTS` and `cda_REPOS` categories:
 

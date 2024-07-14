@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .signature-container {
+            width: 100%;
+            max-width: 600px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+            padding: 10px;
+            text-align: left;
+        }
+        .signature {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-image: url('email-signature.jpeg');
+            background-size: contain; /* Scale down the image */
+            background-repeat: no-repeat;
+            background-position: left;
+            opacity: 0.8; /* Make the entire background image less opaque */
+            margin-top: 10px;
+        }
+        .signature-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent overlay */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .signature-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-69%, -50%);
+            width: 90%;
+            text-align: center;
+        }
+        .signature-content h4 {
+            margin: 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signature-container">
+        <p>Best regards,<br>David Cannan</p>
+        <div class="signature">
+            <div class="signature-overlay"></div>
+            <div class="signature-content">
+                <h4>AI & Software Engineer | DevOps - AIOps</h4>
+                <p>
+                    <a href="https://github.com/Cdaprod" style="color: #1a0dab; text-decoration: none;">🌐 GitHub</a> |
+                    <a href="https://linkedin.com/in/cdasmkt" style="color: #1a0dab; text-decoration: none;">LinkedIn</a> |
+                    <a href="https://twitter.com/cdasmktcda" style="color: #1a0dab; text-decoration: none;">Twitter</a> |
+                    <a href="https://blog.min.io/author/david-cannan" style="color: #1a0dab; text-decoration: none;">MinIO Publications</a>
+                </p>
+                <p>📱 <a href="tel:+14043584338" style="color: #1a0dab; text-decoration: none;">(404)358-4338</a></p>
+                <p>💻 <a href="mailto:Cdaprod@Cdaprod.dev" style="color: #1a0dab; text-decoration: none;">Cdaprod@Cdaprod.dev</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
