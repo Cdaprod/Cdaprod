@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <style>
+    .skill-bar { transition: all 0.5s ease-out; }
+    .skill-text { font-family: Arial, sans-serif; font-size: 14px; }
+  </style>
+  <rect x="0" y="0" width="400" height="250" fill="#f0f0f0" />
+  <text x="200" y="30" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">Core Competencies</text>
+  
+  <g transform="translate(20, 50)">
+    <text x="0" y="15" class="skill-text">DevOps &amp; Cloud</text>
+    <rect x="150" y="0" width="200" height="20" fill="#e0e0e0" rx="10" ry="10" />
+    <rect class="skill-bar" x="150" y="0" width="0" height="20" fill="#4CAF50" rx="10" ry="10">
+      <animate attributeName="width" from="0" to="180" dur="1s" fill="freeze" />
+    </rect>
+  </g>
+
+  <g transform="translate(20, 80)">
+    <text x="0" y="15" class="skill-text">Containerization</text>
+    <rect x="150" y="0" width="200" height="20" fill="#e0e0e0" rx="10" ry="10" />
+    <rect class="skill-bar" x="150" y="0" width="0" height="20" fill="#2196F3" rx="10" ry="10">
+      <animate attributeName="width" from="0" to="170" dur="1s" fill="freeze" />
+    </rect>
+  </g>
+
+  <g transform="translate(20, 110)">
+    <text x="0" y="15" class="skill-text">Programming</text>
+    <rect x="150" y="0" width="200" height="20" fill="#e0e0e0" rx="10" ry="10" />
+    <rect class="skill-bar" x="150" y="0" width="0" height="20" fill="#FFC107" rx="10" ry="10">
+      <animate attributeName="width" from="0" to="160" dur="1s" fill="freeze" />
+    </rect>
+  </g>
+
+  <g transform="translate(20, 140)">
+    <text x="0" y="15" class="skill-text">AI &amp; ML</text>
+    <rect x="150" y="0" width="200" height="20" fill="#e0e0e0" rx="10" ry="10" />
+    <rect class="skill-bar" x="150" y="0" width="0" height="20" fill="#9C27B0" rx="10" ry="10">
+      <animate attributeName="width" from="0" to="150" dur="1s" fill="freeze" />
+    </rect>
+  </g>
+
+  <g transform="translate(20, 170)">
+    <text x="0" y="15" class="skill-text">Data Storage</text>
+    <rect x="150" y="0" width="200" height="20" fill="#e0e0e0" rx="10" ry="10" />
+    <rect class="skill-bar" x="150" y="0" width="0" height="20" fill="#FF5722" rx="10" ry="10">
+      <animate attributeName="width" from="0" to="175" dur="1s" fill="freeze" />
+    </rect>
+  </g>
+
+  <g transform="translate(20, 200)">
+    <text x="0" y="15" class="skill-text">Networking</text>
+    <rect x="150" y="0" width="200" height="20" fill="#e0e0e0" rx="10" ry="10" />
+    <rect class="skill-bar" x="150" y="0" width="0" height="20" fill="#607D8B" rx="10" ry="10">
+      <animate attributeName="width" from="0" to="155" dur="1s" fill="freeze" />
+    </rect>
+  </g>
+</svg>
