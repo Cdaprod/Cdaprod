@@ -1,3 +1,155 @@
+WHAT TO DO:
+
+- branch gh-pages
+- deploy from /docs directory
+- deploy embedded components to /docs for the main README.md page
+- call svgs and js in this README.md file
+- create components files for navigation
+- create component for page template
+- create github action workflows for deploying main platform and generating a page per url asset using custom components and page template
+
+Here's a list of advanced SVG components you can use for different sections of your README.md. Each component can be used to enhance the visual appeal and interactivity of your GitHub page.
+
+1. **Shimmer Effect**
+   - Adds a shimmering animation to text or elements.
+   - Useful for highlighting important information or headings.
+
+2. **Progress Bar**
+   - Visual representation of progress.
+   - Can be used for showing project completion status or milestones.
+
+3. **Interactive Charts**
+   - Dynamic charts that update based on data.
+   - Useful for displaying statistical information or project metrics.
+
+4. **Collapsible Sections**
+   - Sections that can be expanded or collapsed.
+   - Helps in organizing content and keeping the README clean.
+
+5. **Tooltip**
+   - Small pop-ups that appear when hovering over elements.
+   - Provides additional information without cluttering the page.
+
+6. **Live Data Fetch**
+   - Displays real-time data fetched from an API.
+   - Useful for showing live stats or information.
+
+7. **Animated Icons**
+   - SVG icons with animations.
+   - Adds visual interest and guides user attention.
+
+8. **Custom Navigation**
+   - Interactive navigation bar or menu.
+   - Improves user navigation through the README or documentation.
+
+9. **3D Models**
+   - Embeds 3D models that can be interacted with.
+   - Useful for showing product designs or technical parts.
+
+10. **Dark/Light Mode Toggle**
+    - Switches between dark and light themes.
+    - Enhances user experience based on their preference.
+
+Let me know which components you'd like to include, and I can help you implement them in your README.md.
+
+Here's a summary of the components we made earlier for your README.md:
+
+1. **Shimmering Effect SVG Component:**
+   - Shimmering text and background.
+   - Initially made to create a visual highlight for specific elements.
+
+2. **Interactive SVG Cards:**
+   - Cards with background images and text.
+   - Styled with CSS for rounded corners and shadow effects.
+
+3. **Custom Styled Cards with Links:**
+   - Cards linked to specific GitHub repositories.
+   - Faded background images and well-styled text to enhance readability.
+
+These components aim to enhance the visual appeal and interactivity of your README.md. If you need specific details or additional components, let me know!
+
+Here's a directory tree of your repo hosting the components from the `docs` folder:
+
+```
+your-repo/
+├── README.md
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── docs/
+│   ├── index.html
+│   ├── styles.css
+│   ├── scripts/
+│   │   ├── shimmer.js
+│   │   ├── interactive-cards.js
+│   │   └── custom-components.js
+│   ├── components/
+│   │   ├── header.html
+│   │   ├── footer.html
+│   │   ├── navigation.html
+│   │   ├── page-template.html
+│   │   ├── custom-card.html
+│   │   └── shimmer-card.html
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── photo.webp
+│   │   │   ├── photo-2.webp
+│   │   │   ├── photo-3.webp
+│   │   │   ├── ...
+│   │   └── svgs/
+│   │       ├── shimmer-1.svg
+│   │       ├── shimmer-2.svg
+│   │       ├── ...
+│   ├── custom-page-1.html
+│   ├── custom-page-2.html
+│   ├── ...
+└── src/
+    ├── components/
+    │   ├── ShimmerEffect.js
+    │   ├── InteractiveCard.js
+    │   └── CustomStyledCard.js
+    ├── index.js
+    └── styles/
+        ├── main.css
+        └── components.css
+```
+
+### Explanation:
+1. **README.md**: Main README file for your repository.
+2. **.github/workflows/deploy.yml**: GitHub Actions workflow for deploying your platform.
+3. **docs/**: Directory for hosting your GitHub Pages site.
+   - **index.html**: The main entry point for your GitHub Pages site.
+   - **styles.css**: CSS file for styling your GitHub Pages site.
+   - **scripts/**: Directory containing JavaScript files for various interactive components.
+     - **shimmer.js**: JavaScript file for the shimmering effect.
+     - **interactive-cards.js**: JavaScript file for interactive cards.
+     - **custom-components.js**: JavaScript file for custom components.
+   - **components/**: Directory containing HTML files for various reusable components.
+     - **header.html**: Header component.
+     - **footer.html**: Footer component.
+     - **navigation.html**: Navigation component.
+     - **page-template.html**: Template for pages.
+     - **custom-card.html**: Custom card component.
+     - **shimmer-card.html**: Shimmer card component.
+   - **assets/**: Directory for images and SVG assets.
+     - **images/**: Directory for image files.
+     - **svgs/**: Directory for SVG files.
+   - **custom-page-1.html**, **custom-page-2.html**: Custom pages for your GitHub Pages site.
+4. **src/**: Source code for your project.
+   - **components/**: Directory containing JavaScript files for various components.
+     - **ShimmerEffect.js**: JavaScript file for the shimmering effect component.
+     - **InteractiveCard.js**: JavaScript file for the interactive card component.
+     - **CustomStyledCard.js**: JavaScript file for the custom styled card component.
+   - **index.js**: Main JavaScript file for your project.
+   - **styles/**: Directory for CSS files.
+     - **main.css**: Main CSS file for your project.
+     - **components.css**: CSS file for styling components.
+
+This structure ensures your components and assets are organized and easily accessible for development and deployment.
+
+---
+
+# START
 <!-- Include custom CSS to adjust the margins of a specific image -->
 <style>
 .custom-image {

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Example</title>
+  <style>
+    @keyframes shimmer {
+      0% {
+        background-position: -300px 0;
+      }
+      100% {
+        background-position: 300px 0;
+      }
+    }
+    svg {
+      animation: shimmer 2s infinite linear;
+      background: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+      background-size: 800px 150px;
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, white 20%, white 80%, transparent 100%);
+      mask-image: linear-gradient(to right, transparent 0%, white 20%, white 80%, transparent 100%);
+    }
+  </style>
+</head>
+<body>
+  <svg width="300" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+    <defs>
+      <linearGradient id="shimmer" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="20%" stop-color="#f6f7f8" />
+        <stop offset="50%" stop-color="#edeef1" />
+        <stop offset="70%" stop-color="#f6f7f8" />
+      </linearGradient>
+      <mask id="mask-shimmer">
+        <rect width="300" height="150" fill="url(#shimmer)" />
+      </mask>
+    </defs>
+    <rect width="300" height="150" fill="#e0e0e0" mask="url(#mask-shimmer)" />
+    <text x="50%" y="50%" text-anchor="middle" fill="#333" font-size="20" dy=".3em">cdaprod/cda.cdactl</text>
+  </svg>
+
+  <script>
+    function updateSVGText(newText) {
+      const svg = document.querySelector('svg text');
+      svg.textContent = newText;
+    }
+
+    // Example: Update the SVG text after 3 seconds
+    setTimeout(() => {
+      updateSVGText('Updated Text');
+    }, 3000);
+  </script>
+</body>
+</html>

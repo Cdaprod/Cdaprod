@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <style>
+    .chart-bar { transition: height 1s ease-out; }
+    .chart-text { font-family: Arial, sans-serif; font-size: 12px; }
+  </style>
+  <rect x="0" y="0" width="400" height="200" fill="#f6f8fa" />
+  <text x="200" y="30" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">GitHub Activity</text>
+  
+  <g transform="translate(50, 180)">
+    <line x1="0" y1="0" x2="300" y2="0" stroke="#333" />
+    <line x1="0" y1="0" x2="0" y2="-150" stroke="#333" />
+    
+    <rect class="chart-bar" x="20" y="0" width="40" height="0" fill="#2196F3">
+      <animate attributeName="height" from="0" to="-100" dur="1s" fill="freeze" />
+    </rect>
+    <text x="40" y="15" class="chart-text" text-anchor="middle">Commits</text>
+    
+    <rect class="chart-bar" x="100" y="0" width="40" height="0" fill="#4CAF50">
+      <animate attributeName="height" from="0" to="-80" dur="1s" fill="freeze" />
+    </rect>
+    <text x="120" y="15" class="chart-text" text-anchor="middle">PRs</text>
+    
+    <rect class="chart-bar" x="180" y="0" width="40" height="0" fill="#FFC107">
+      <animate attributeName="height" from="0" to="-60" dur="1s" fill="freeze" />
+    </rect>
+    <text x="200" y="15" class="chart-text" text-anchor="middle">Issues</text>
+    
+    <rect class="chart-bar" x="260" y="0" width="40" height="0" fill="#9C27B0">
+      <animate attributeName="height" from="0" to="-120" dur="1s" fill="freeze" />
+    </rect>
+    <text x="280" y="15" class="chart-text" text-anchor="middle">Contribs</text>
+  </g>
+</svg>
