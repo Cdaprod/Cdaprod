@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     viewBox="0 0 400 300" 
+     width="100%" 
+     height="100%" 
+     style="max-width: 800px; height: auto;">
+
+  <style>
+    .project-title { 
+      font-family: Arial, sans-serif; 
+      font-size: 14px; 
+      font-weight: bold; 
+      cursor: pointer;
+    }
+    .project-desc { 
+      font-family: Arial, sans-serif; 
+      font-size: 12px; 
+    }
+    .project-link { 
+      font-family: Arial, sans-serif; 
+      font-size: 10px; 
+      fill: #0366d6; 
+      text-decoration: underline; 
+      cursor: pointer;
+    }
+    .project-card { 
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+      cursor: pointer;
+    }
+    .project-card:hover { 
+      transform: translateY(-5px); 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    /* For touch devices */
+    @media (hover: none) {
+      .project-card:active { 
+        transform: translateY(-5px); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      }
+    }
+    /* Expand effect */
+    .expanded {
+      transition: all 0.3s ease;
+      transform: scale(1.05);
+    }
+  </style>
+
+  <rect width="100%" height="100%" fill="#f6f8fa" />
+  <text x="200" y="30" 
+        font-family="Arial, sans-serif" 
+        font-size="20" 
+        fill="#333" 
+        text-anchor="middle">
+    MinIO Publications Showcase
+  </text>
+  
+  <!-- Project Card Template -->
+  <g class="project-card" transform="translate(20, 50)" onclick="window.open('https://blog.min.io/minio-powered-langchain-agent-with-langserve/', '_blank')">
+    <rect x="0" y="0" width="360" height="70" fill="#ffffff" stroke="#e1e4e8" stroke-width="1" rx="6" ry="6" />
+    <text x="10" y="20" class="project-title">LangChain Agent API with LangServe</text>
+    <text x="10" y="40" class="project-desc">Building and deploying MinIO-powered LangChain agent...</text>
+    <text x="10" y="60" class="project-link">Read More</text>
+  </g>
+
+  <g class="project-card" transform="translate(20, 130)" onclick="window.open('https://blog.min.io/minio-weaviate-unstructured-io/', '_blank')">
+    <rect x="0" y="0" width="360" height="70" fill="#ffffff" stroke="#e1e4e8" stroke-width="1" rx="6" ry="6" />
+    <text x="10" y="20" class="project-title">Dynamic ETL Pipeline</text>
+    <text x="10" y="40" class="project-desc">Hydrate AI with web data for MinIO and Weaviate...</text>
+    <text x="10" y="60" class="project-link">Read More</text>
+  </g>
+
+  <g class="project-card" transform="translate(20, 210)" onclick="window.open('https://blog.min.io/disaster-proof-minio-with-gitops/', '_blank')">
+    <rect x="0" y="0" width="360" height="70" fill="#ffffff" stroke="#e1e4e8" stroke-width="1" rx="6" ry="6" />
+    <text x="10" y="20" class="project-title">Disaster Proof MinIO with GitOps</text>
+    <text x="10" y="40" class="project-desc">Strategic automation and redundancy for swift recovery...</text>
+    <text x="10" y="60" class="project-link">Read More</text>
+  </g>
+
+  <!-- Optional: Adding JavaScript for expand/collapse on click -->
+  <script type="application/ecmascript">
+    <![CDATA[
+      const cards = document.querySelectorAll('.project-card');
+      cards.forEach(card => {
+        card.addEventListener('click', function(event) {
+          // Prevent the entire card from opening if clicking on 'Read More'
+          if (event.target.classList.contains('project-link')) {
+            return;
+          }
+          // Toggle expanded class
+          this.classList.toggle('expanded');
+        });
+      });
+    ]]>
+  </script>
+
+</svg>

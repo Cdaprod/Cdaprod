@@ -1,38 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     viewBox="0 0 400 300" 
+     width="100%" 
+     height="100%" 
+     style="max-width: 800px; height: auto; display: block; margin: auto;">
+
   <style>
-    .project-title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
-    .project-desc { font-family: Arial, sans-serif; font-size: 12px; }
-    .project-link { font-family: Arial, sans-serif; font-size: 10px; fill: #0366d6; text-decoration: underline; }
-    .project-card { transition: all 0.3s ease; }
-    .project-card:hover { transform: translate(-2px, -2px); }
+    /* Base Styles */
+    .project-title { 
+      font-family: Arial, sans-serif; 
+      font-size: 14px; 
+      font-weight: bold; 
+      cursor: pointer;
+    }
+    .project-desc { 
+      font-family: Arial, sans-serif; 
+      font-size: 12px; 
+      cursor: pointer;
+    }
+    .project-link { 
+      font-family: Arial, sans-serif; 
+      font-size: 10px; 
+      fill: #0366d6; 
+      text-decoration: underline; 
+      cursor: pointer;
+    }
+    .project-card { 
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+      cursor: pointer;
+      opacity: 0;
+      animation: fadeInUp 0.5s forwards;
+    }
+    .project-card:hover { 
+      transform: translateY(-5px); 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    /* For touch devices */
+    @media (hover: none) {
+      .project-card:active { 
+        transform: translateY(-5px); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      }
+    }
+    /* Fade In Up Animation */
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    /* Responsive Text */
+    text {
+      user-select: none;
+    }
   </style>
-  <rect x="0" y="0" width="400" height="300" fill="#f6f8fa" />
-  <text x="200" y="30" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">MinIO Publications Showcase</text>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f6f8fa" />
+
+  <!-- Title -->
+  <text x="200" y="30" 
+        font-family="Arial, sans-serif" 
+        font-size="20" 
+        fill="#333" 
+        text-anchor="middle">
+    MinIO Publications Showcase
+  </text>
   
-  <g class="project-card" transform="translate(20, 50)">
-    <rect x="0" y="0" width="360" height="70" fill="#ffffff" stroke="#e1e4e8" stroke-width="1" rx="6" ry="6" />
-    <text x="10" y="20" class="project-title">LangChain Agent API with LangServe</text>
-    <text x="10" y="40" class="project-desc">Building and deploying MinIO-powered LangChain agent...</text>
-    <a href="https://blog.min.io/minio-powered-langchain-agent-with-langserve/" target="_blank">
-      <text x="10" y="60" class="project-link">Read More</text>
-    </a>
-  </g>
+  <!-- Project Cards -->
+  <!-- Card 1 -->
+  <a xlink:href="https://blog.min.io/minio-powered-langchain-agent-with-langserve/" target="_blank" aria-label="Read more about LangChain Agent API with LangServe">
+    <g class="project-card" style="animation-delay: 0.2s;" role="button" tabindex="0">
+      <rect x="20" y="50" width="360" height="70" fill="#ffffff" stroke="#e1e4e8" stroke-width="1" rx="6" ry="6" />
+      <text x="30" y="70" class="project-title">LangChain Agent API with LangServe</text>
+      <text x="30" y="90" class="project-desc">Building and deploying MinIO-powered LangChain agent...</text>
+      <text x="30" y="110" class="project-link">Read More</text>
+    </g>
+  </a>
 
-  <g class="project-card" transform="translate(20, 130)">
-    <rect x="0" y="0" width="360" height="70" fill="#ffffff" stroke="#e1e4e8" stroke-width="1" rx="6" ry="6" />
-    <text x="10" y="20" class="project-title">Dynamic ETL Pipeline</text>
-    <text x="10" y="40" class="project-desc">Hydrate AI with web data for MinIO and Weaviate...</text>
-    <a href="https://blog.min.io/minio-weaviate-unstructured-io/" target="_blank">
-      <text x="10" y="60" class="project-link">Read More</text>
-    </a>
-  </g>
+  <!-- Card 2 -->
+  <a xlink:href="https://blog.min.io/minio-weaviate-unstructured-io/" target="_blank" aria-label="Read more about Dynamic ETL Pipeline">
+    <g class="project-card" style="animation-delay: 0.4s;" role="button" tabindex="0">
+      <rect x="20" y="130" width="360" height="70" fill="#ffffff" stroke="#e1e4e8" stroke-width="1" rx="6" ry="6" />
+      <text x="30" y="150" class="project-title">Dynamic ETL Pipeline</text>
+      <text x="30" y="170" class="project-desc">Hydrate AI with web data for MinIO and Weaviate...</text>
+      <text x="30" y="190" class="project-link">Read More</text>
+    </g>
+  </a>
 
-  <g class="project-card" transform="translate(20, 210)">
-    <rect x="0" y="0" width="360" height="70" fill="#ffffff" stroke="#e1e4e8" stroke-width="1" rx="6" ry="6" />
-    <text x="10" y="20" class="project-title">Disaster Proof MinIO with GitOps</text>
-    <text x="10" y="40" class="project-desc">Strategic automation and redundancy for swift recovery...</text>
-    <a href="https://blog.min.io/disaster-proof-minio-with-gitops/" target="_blank">
-      <text x="10" y="60" class="project-link">Read More</text>
-    </a>
-  </g>
+  <!-- Card 3 -->
+  <a xlink:href="https://blog.min.io/disaster-proof-minio-with-gitops/" target="_blank" aria-label="Read more about Disaster Proof MinIO with GitOps">
+    <g class="project-card" style="animation-delay: 0.6s;" role="button" tabindex="0">
+      <rect x="20" y="210" width="360" height="70" fill="#ffffff" stroke="#e1e4e8" stroke-width="1" rx="6" ry="6" />
+      <text x="30" y="230" class="project-title">Disaster Proof MinIO with GitOps</text>
+      <text x="30" y="250" class="project-desc">Strategic automation and redundancy for swift recovery...</text>
+      <text x="30" y="270" class="project-link">Read More</text>
+    </g>
+  </a>
+
 </svg>

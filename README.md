@@ -4,21 +4,25 @@
 
 <div align="center">
   <p style="font-size: 1.2em;">
-    I'm <strong>David Cannan</strong>, a passionate DevOps Engineer, AI Developer, and Stoic Philosopher dedicated to building robust AI solutions, cloud-native applications, and scalable infrastructures. I currently focus my efforts on building [Goguma.io](https://goguma.io) and implementing Infrastructure as Code (IaC) with advanced custom full-stack solutions, AI tooling, services, and middleware in secure hybrid cloud environments. This README provides an overview of my projects, technical expertise, personal journey, and the methods I use to style and deploy my GitHub Pages site for an enhanced visual and interactive experience.
+    I'm <strong>David Cannan</strong>, a passionate DevOps Engineer, AI Developer, and Stoic Philosopher dedicated to building robust AI solutions, cloud-native applications, and scalable infrastructures. I currently focus my efforts on building Full Stack Solutions and implementing Infrastructure as Code (IaC) with advanced custom full-stack solutions, AI tooling, services, and middleware in secure hybrid cloud environments. This README provides an overview of my projects, technical expertise, personal journey, and the methods I use to style and deploy my GitHub Pages site for an enhanced visual and interactive experience.
   </p>
 </div>
 
 ---
 
+
+
 ## 🚀 Quick Links
 
 <div align="center">
+  <img src="https://img.shields.io/twitter/follow/cdasmktcda?style=social" alt="Twitter Follow" style="margin-right: 10px;">
   <a href="https://twitter.com/cdasmktcda">
-    <img src="https://img.shields.io/twitter/follow/cdasmktcda?style=social" alt="Twitter Follow" style="margin-right: 10px;">
+  <img src="https://img.shields.io/twitter/follow/cdasmktcda?style=social" alt="Twitter Follow" style="margin-right: 10px;">
   </a>
   <a href="https://www.linkedin.com/in/cdasmkt/">
-    <img src="https://img.shields.io/badge/LinkedIn-cdasmkt-blue?style=flat&logo=linkedin" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/LinkedIn-cdasmkt-blue?style=flat&logo=linkedin" alt="LinkedIn">
   </a>
+  <img src="/public/SVG/skill-meter.svg" alt="Skill Meter" style="margin-right: 10px;">
 </div>
 
 <div align="center" class="flex-container" style="margin-top: 20px;">
@@ -28,6 +32,10 @@
 
 <div align="center" class="flex-container" style="margin-top: 20px;">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cdaprod&layout=compact&theme=vision-friendly-dark" alt="Top Langs">
+</div>
+  
+<div align="center" class="flex-container" style="margin-top: 20px;">
+  <img src="/public/SVG/project-showcase.svg" alt="Publication Showcase" style="margin-right: 10px;">
 </div>
 
 ---
