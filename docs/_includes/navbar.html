@@ -1,17 +1,15 @@
-<nav>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-    <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-    <li><a href="{{ '/from-existing-projects-to-production/' | relative_url }}">Articles</a></li>
-    <!-- Add more links as needed -->
-  </ul>
-</nav>
+☰
+	•	Home
+	•	About
+	•	Publications
+	•	Articles
+	•	Categories
+	•	{% for category in site.categories %}
+{{ category[0] | capitalize }}
+	•	{% endfor %}
+	•	Tags
+	•	{% assign unique_tags = site.tags | sort %} {% for tag in unique_tags %}
+{{ tag[0] | capitalize }}
+	•	{% endfor %}
+Search
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li class="breadcrumb-item"><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Dynamic ETL Pipeline</li>
-  </ol>
-</nav>

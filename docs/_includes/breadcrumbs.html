@@ -1,0 +1,7 @@
+{% if page.categories %}
+	1	Home
+	2	{% for category in page.categories %}
+	3	{{ category | capitalize }}
+	4	{% endfor %}
+	5	{{ page.title }}
+{% endif %}
