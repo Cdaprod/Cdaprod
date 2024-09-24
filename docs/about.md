@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+permalink: /about/
 ---
 
 # About Me
@@ -9,4 +10,4 @@ I'm David Cannan, a passionate DevOps Engineer and AI Developer based in Douglas
 
 ## My Work
 
-Explore my [publications](https://cdaprod.github.io/publications/) to learn more about my contributions to the field.
+Explore my [publications](https://cdaprod.github.io/publications/) and [recent projects](https://cdaprod.github.io/articles/from-existing-projects-to-production/) to learn more about my contributions to the field.

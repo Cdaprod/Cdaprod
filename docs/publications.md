@@ -17,7 +17,17 @@ Here are some of my published works:
 
 ## Categories
 
-- [AI](https://cdaprod.github.io/categories/ai/)
-- [ETL](https://cdaprod.github.io/categories/etl/)
-- [Infrastructure](https://cdaprod.github.io/categories/infrastructure/)
-- [GitOps](https://cdaprod.github.io/categories/gitops/)
+<ul class="categories-list">
+  {% for category in site.categories %}
+    <li><a href="{{ '/categories/' | append: category[0] | relative_url }}">{{ category[0] | capitalize }}</a> ({{ category[1].size }})</li>
+  {% endfor %}
+</ul>
+
+## Tags
+
+<ul class="tags-list">
+  {% assign unique_tags = site.tags | sort %}
+  {% for tag in unique_tags %}
+    <li><a href="{{ '/tags/' | append: tag[0] | relative_url }}">{{ tag[0] | capitalize }}</a> ({{ tag[1].size }})</li>
+  {% endfor %}
+</ul>

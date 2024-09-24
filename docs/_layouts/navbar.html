@@ -1,3 +1,11 @@
+<!-- Add inside the navbar or header -->
+
+<form id="search-form">
+  <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
+  <button type="submit">Search</button>
+</form>
+<div id="search-results"></div>
+
 <!-- docs/_includes/navbar.html -->
 
 <nav class="navbar">
@@ -9,11 +17,11 @@
       &#9776; <!-- Hamburger Icon -->
     </button>
     <ul class="navbar-menu" id="navbar-menu">
-      <li><a href="{{ '/' | relative_url }}">Home</a></li>
-      <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-      <li><a href="{{ '/articles/' | relative_url }}">Articles</a></li>
-      <li class="dropdown">
+      <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li class="{% if page.url contains '/about/' %}active{% endif %}"><a href="{{ '/about/' | relative_url }}">About</a></li>
+      <li class="{% if page.url contains '/publications/' %}active{% endif %}"><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+      <li class="{% if page.url contains '/articles/' %}active{% endif %}"><a href="{{ '/articles/' | relative_url }}">Articles</a></li>
+      <li class="dropdown {% if page.categories contains 'Categories' %}active{% endif %}">
         <a href="#">Categories</a>
         <ul class="dropdown-content">
           {% for category in site.categories %}
@@ -21,7 +29,7 @@
           {% endfor %}
         </ul>
       </li>
-      <li class="dropdown">
+      <li class="dropdown {% if page.tags %}active{% endif %}">
         <a href="#">Tags</a>
         <ul class="dropdown-content">
           {% assign unique_tags = site.tags | sort %}
@@ -44,4 +52,4 @@
       navbarMenu.classList.toggle('active');
     });
   });
-</script>
+</script></nav>

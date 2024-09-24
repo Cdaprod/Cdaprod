@@ -1,5 +1,4 @@
 ---
----
 layout: default
 title: From Existing Projects to Production
 categories: [Articles, System Design]

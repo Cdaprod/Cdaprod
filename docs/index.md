@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
 # Welcome to Cdaprod's Hub
@@ -13,5 +14,5 @@ Check out my latest publication on [Dynamic ETL Pipeline: Hydrate AI with Web Da
 
 ## Recent Articles
 
-- [From Existing Projects to Production](https://cdaprod.github.io/from-existing-projects-to-production/)
+- [From Existing Projects to Production](https://cdaprod.github.io/articles/from-existing-projects-to-production/)
 - [Optimizing AI Data Processing](https://cdaprod.github.io/publications/optimizing-ai-data-processing-with-minio-weaviate-and-langchain/)
