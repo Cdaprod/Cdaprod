@@ -1,52 +1,88 @@
-# _config.yml
+# _config.yml (Adapted for Cdaprod)
+theme: jekyll-theme-chirpy
 
-# Site Settings
-title: Cdaprod's Hub
-description: A central place for my projects, publications, and personal journey.
-url: https://cdaprod.github.io  # Replace with your GitHub Pages URL
+lang: en
+timezone: America/New_York  # Set to your preferred timezone
 
-# Build Settings
-baseurl: ""  # Leave empty if using the root
-permalink: /:categories/:title/  # Clean URLs based on categories
+# SEO settings
+title: Cdaprod  # Customize your site title
+tagline: Documentation Hub for Cdaprod Projects
+description: >-
+  A detailed documentation site integrating DevOps, AI, and technical writing projects.
 
-# Markdown Processor
-markdown: kramdown
-kramdown:
-  input: GFM  # GitHub Flavored Markdown
+url: "https://ghpages.cdaprod.dev"  # Set to your GitHub Pages URL
+baseurl: "/docs"  # Ensure this matches your GitHub Pages folder setting
 
-# Theme Settings
-theme: minima  # Starting with Minima; can customize or switch as needed
+github:
+  username: Cdaprod  # Replace with your GitHub username
 
-# Plugins
-plugins:
-  - jekyll-sitemap  # Generates a sitemap.xml
+twitter:
+  username: cdasmktcda  # Replace with your Twitter handle
 
-# Exclude Specific Files or Directories from the Build
-exclude:
-  - README.md
-  - .github
-  - other-repo-files
-
-# Author Information
-author:
+social:
   name: David Cannan
   email: cdaprod@cdaprod.dev
+  links:
+    - https://twitter.com/cdasmktcda
+    - https://github.com/Cdaprod
 
-# Social Links (Optional)
-social:
-  twitter: https://twitter.com/cdasmarkt
-  linkedin: https://www.linkedin.com/in/davidcannan
-  website: https://sanity.cdaprod.dev
+# Site verification settings (fill these in if needed)
+webmaster_verifications:
+  google:
+  bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
 
-# Collections (Optional for Advanced Organization)
+# Analytics (fill in your specific provider details)
+analytics:
+  google:
+    id: # Your Google Analytics ID
+
+theme_mode: light  # Choose light or dark mode as your default
+
+avatar: "/assets/images/avatar.png"  # Ensure the avatar path matches your local image
+social_preview_image: "/assets/images/social-preview.png"
+
+toc: true  # Enable Table of Contents for posts
+
+# Comments settings (enable if using Disqus, Giscus, etc.)
+comments:
+  provider: giscus
+  giscus:
+    repo: Cdaprod/Cdaprod
+    repo_id: your_repo_id
+    category: your_category
+    category_id: your_category_id
+
+paginate: 5  # Adjust pagination settings to suit your needs
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
 collections:
-  articles:
+  tabs:
     output: true
-    permalink: /articles/:name/
-  publications:
-    output: true
-    permalink: /publications/:name/
+    sort_by: order
 
-# Custom Variables (Optional)
-custom:
-  svg_dir: "/assets/images/"
+# Exclude files that shouldn’t be part of the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - docs/tools
+  - "*.config.js"
+  - package*.json
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
