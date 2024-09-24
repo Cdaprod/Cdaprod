@@ -1,0 +1,52 @@
+# _config.yml
+
+# Site Settings
+title: Cdaprod's Hub
+description: A central place for my projects, publications, and personal journey.
+url: https://cdaprod.github.io  # Replace with your GitHub Pages URL
+
+# Build Settings
+baseurl: ""  # Leave empty if using the root
+permalink: /:categories/:title/  # Clean URLs based on categories
+
+# Markdown Processor
+markdown: kramdown
+kramdown:
+  input: GFM  # GitHub Flavored Markdown
+
+# Theme Settings
+theme: minima  # Starting with Minima; can customize or switch as needed
+
+# Plugins
+plugins:
+  - jekyll-sitemap  # Generates a sitemap.xml
+
+# Exclude Specific Files or Directories from the Build
+exclude:
+  - README.md
+  - .github
+  - other-repo-files
+
+# Author Information
+author:
+  name: David Cannan
+  email: cdaprod@cdaprod.dev
+
+# Social Links (Optional)
+social:
+  twitter: https://twitter.com/cdasmarkt
+  linkedin: https://www.linkedin.com/in/davidcannan
+  website: https://sanity.cdaprod.dev
+
+# Collections (Optional for Advanced Organization)
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
+
+# Custom Variables (Optional)
+custom:
+  svg_dir: "/assets/images/"

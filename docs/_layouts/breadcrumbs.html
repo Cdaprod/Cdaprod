@@ -1,0 +1,13 @@
+<!-- docs/_includes/breadcrumbs.html -->
+
+{% if page.categories %}
+  <nav aria-label="breadcrumb" class="breadcrumbs">
+    <ol>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      {% for category in page.categories %}
+        <li><a href="{{ '/categories/' | append: category | relative_url }}">{{ category | capitalize }}</a></li>
+      {% endfor %}
+      <li aria-current="page">{{ page.title }}</li>
+    </ol>
+  </nav>
+{% endif %}
