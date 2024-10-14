@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG Intro Animation with Logo</title>
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #1a1a1a; /* Background color */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      position: relative; /* Ensure the body is positioned */
+      overflow: hidden; /* Prevent scrollbars from appearing */
+    }
+
+    svg {
+      width: 300px; /* Adjust based on your needs */
+      height: auto;
+      overflow: visible;
+      position: absolute; /* Allows z-index to take effect */
+      z-index: 10; /* Higher z-index to bring it to front */
+    }
+
+    /* Animation for the logo image */
+    .logo {
+      opacity: 0; /* Start hidden */
+      animation: fadeInLogo 4s forwards; /* Fade in over 4 seconds */
+    }
+
+    @keyframes fadeInLogo {
+      0% { opacity: 0; }
+      100% { opacity: 1; } /* Fully visible */
+    }
+
+    /* Fade-in effect for text */
+    .logo-text {
+      opacity: 0; /* Start hidden */
+      animation: fadeInText 2s forwards; /* Fade in over 2 seconds */
+      animation-delay: 4s; /* Delayed until logo fade-in completes */
+      font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+      font-weight: 600; /* Bold font */
+      font-size: 26px; /* Adjusted font size */
+    }
+
+    @keyframes fadeInText {
+      0% { opacity: 0; }
+      100% { opacity: 1; } /* Fully visible */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SVG Container -->
+  <svg viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+    <!-- Load your logo as an image -->
+    <image class="logo" href="public/color-logo.png" x="0" y="0" width="250" height="250" />
+    
+    <!-- Logo Text -->
+    <text class="logo-text" x="125" y="230" text-anchor="middle" fill="#fff">
+      Cdaprod
+    </text>
+  </svg>
+
+</body>
+</html>

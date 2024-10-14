@@ -1,0 +1,50 @@
+# .github/workflows/jekyll-build.yml
+
+name: Build and Deploy Jekyll Site
+
+on:
+  push:
+    branches:
+      - main  # Adjust this to your branch name if necessary
+  pull_request:
+    branches:
+      - main  # Optional: trigger on pull requests targeting main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Ruby environment
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0  # Specify the Ruby version
+
+      # Step 3: Install dependencies using Bundler
+      - name: Install Dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      # Step 4: Build the Jekyll Site
+      - name: Build Jekyll Site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./docs
+          destination: ./docs/_site
+          config: ./docs/_config.yml  # Specify the config file path
+          future: false
+          verbose: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/_site

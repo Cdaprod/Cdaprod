@@ -1,8 +1,8 @@
 ---
 layout: default
 title: From Existing Projects to Production
-categories: [Articles, System Design]
-tags: [Microservices, Scalability, Integration]
+categories: [DevOps, System Design]
+tags: [github, projects, production]
 permalink: /articles/from-existing-projects-to-production/
 ---
 

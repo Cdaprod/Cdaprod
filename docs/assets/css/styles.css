@@ -1,3 +1,10 @@
+@import "chirpy";  // Import Chirpy's main styles
+
+// Custom styles to override or extend Chirpy's look
+body {
+  background-color: #f4f4f4;
+}
+
 /* docs/assets/css/styles.css */
 
 /* General Styles */
