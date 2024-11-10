@@ -15,20 +15,34 @@
 ## 🚀 Quick Links
 
 <div align="center">
-  <img src="https://img.shields.io/twitter/follow/cdasmktcda?style=social" alt="Twitter Follow" style="margin-right: 10px;">
   <a href="https://twitter.com/cdasmktcda">
   <img src="https://img.shields.io/twitter/follow/cdasmktcda?style=social" alt="Twitter Follow" style="margin-right: 10px;">
   </a>
   <a href="https://www.linkedin.com/in/cdasmkt/">
   <img src="https://img.shields.io/badge/LinkedIn-cdasmkt-blue?style=flat&logo=linkedin" alt="LinkedIn">
   </a>
+  <a href="https://m.youtube.com/@Cdaprod">
+  <img src="https://img.shields.io/badge/YouTube-Code%20n'%20Triplets-red?style=flat&logo=youtube" alt="YouTube">
+  </a>
+  <a href="https://www.twitch.tv/cdaproductions">
+  <img src="https://img.shields.io/badge/Twitch-cdaproductions-purple?style=flat&logo=twitch" alt="Twitch">
+  </a>
+</div>
+
+---
+
+<div align="center">
   <img src="/public/SVG/skill-meter.svg" alt="Skill Meter" style="margin-right: 10px;">
 </div>
+
+---
 
 <div align="center" class="flex-container" style="margin-top: 20px;">
   <img src="https://github-readme-stats.vercel.app/api?username=Cdaprod&show_icons=true&theme=radical" alt="GitHub Stats" style="margin-right: 10px;">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Cdaprod&theme=dark" alt="GitHub Streak">
 </div>
+
+---
 
 <div align="center" class="flex-container" style="margin-top: 20px;">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cdaprod&layout=compact&theme=vision-friendly-dark" alt="Top Langs">
