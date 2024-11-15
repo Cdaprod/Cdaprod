@@ -2,6 +2,7 @@
 
 ## 👋 Connect with Cdaprod
 
+
 <div align="center">
   <p>
     <a href="https://youtube.com/@Cdaprod">
@@ -22,9 +23,9 @@
   </p>
 </div>
 
-### 🌟 About This Project
+---
 
-> 🎥 [This project](https://github.com/Cdaprod/live-streaming-setup) is part of my content creation tech stack! Watch me build and use it on [YouTube](https://youtube.com/@Cdaprod)
+**🎥 [This project](https://github.com/Cdaprod/live-streaming-setup) is part of my content creation tech stack! Watch me build and use it on [YouTube](https://youtube.com/@Cdaprod)**
 
 This streaming setup powers my tech content creation across various platforms. From coding sessions to tech reviews, this is the backbone of my live streaming infrastructure. Want to see it in action? Check out my:
 
@@ -85,6 +86,9 @@ This streaming setup powers my tech content creation across various platforms. F
   </a>
   <a href="https://www.twitch.tv/cdaproductions">
   <img src="https://img.shields.io/badge/Twitch-cdaproductions-purple?style=flat&logo=twitch" alt="Twitch">
+  </a>
+  <a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FCdaprod">
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/Cdaprod">
   </a>
 </div>
 
