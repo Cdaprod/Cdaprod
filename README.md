@@ -122,7 +122,7 @@ This streaming setup powers my tech content creation across various platforms. F
   
   <h2>Basic Information</h2>
   <p><strong>Name:</strong> David Cannan</p>
-  <p><strong>Profession/Role:</strong> Full Stack Engineer, AI Developer, and Stoic Philosopher</p>
+  <p><strong>Profession/Role:</strong> Full Stack Software Engineer, AI Infrastructure and Solutions Architect, and Stoic Philosopher</p>
   <p><strong>Location:</strong> Douglasville, Georgia, USA</p>
 
   <h3>Professional Summary</h3>
