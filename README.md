@@ -115,6 +115,7 @@ This streaming setup powers my tech content creation across various platforms. F
   <img src="/public/SVG/project-showcase.svg" alt="Publication Showcase" style="margin-right: 10px;">
 </div>
 
+☝️ I wrote this SVG in text, so links are kinda finicky. 😅
 ---
 
 <div align="left">
