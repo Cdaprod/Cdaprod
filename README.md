@@ -695,3 +695,4 @@ Thank you for exploring my profile! Let's dive into my projects and work togethe
   Visitor count<br>
   <img src="https://profile-counter.glitch.me/cdaprod/count.svg" />
 </p>
+[](https://profile-counter.glitch.me/cdaprod/count.svg)
