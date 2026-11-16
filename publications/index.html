@@ -1,0 +1,159 @@
+<!-- docs/_layouts/default.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications - Cdaprod</title>
+  <link rel="stylesheet" href="/docs/assets/css/styles.css">
+</head>
+<body>
+  <!-- docs/_includes/navbar.html -->
+
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="/docs/" class="navbar-logo">
+      <img src="/docs/assets/images/logos/logo.svg" alt="Cdaprod Logo" />
+    </a>
+    <button class="navbar-toggle" id="navbar-toggle">
+      &#9776; <!-- Hamburger Icon -->
+    </button>
+    <ul class="navbar-menu" id="navbar-menu">
+      <li class="">
+        <a href="/docs/">Home</a>
+      </li>
+      <li class="">
+        <a href="/docs/about/">About</a>
+      </li>
+      <li class="active">
+        <a href="/docs/publications/">Publications</a>
+      </li>
+      <li class="">
+        <a href="/docs/articles/">Articles</a>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Categories</a>
+        <ul class="dropdown-content">
+          
+            <li>
+              <a href="/docs/categories/Microservices">Microservices</a>
+            </li>
+          
+        </ul>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Tags</a>
+        <ul class="dropdown-content">
+          
+          
+            <li>
+              <a href="/docs/tags/CdaProdRegistry">Cdaprodregistry</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/DevOps">Devops</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Microservices">Microservices</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Software%20Architecture">Software architecture</a>
+            </li>
+          
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Search Form -->
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
+    <button type="submit">Search</button>
+  </form>
+  <div id="search-results"></div>
+</nav>
+
+<!-- Script for Navbar Toggle -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('navbar-toggle');
+    const navbarMenu = document.getElementById('navbar-menu');
+
+    toggleButton.addEventListener('click', () => {
+      navbarMenu.classList.toggle('active');
+    });
+  });
+</script>
+  <!-- docs/_includes/breadcrumbs.html -->
+
+
+  <!-- docs/_includes/header.html -->
+
+<header class="site-header">
+  <div class="header-content">
+    <h1><a href="/docs/">Cdaprod</a></h1>
+    <p>A detailed documentation site integrating DevOps, AI, and technical writing projects.</p>
+  </div>
+</header>
+  <main>
+    <h1 id="publications">Publications</h1>
+
+<p>Here are some of my published works:</p>
+
+<ol>
+  <li><strong><a href="https://cdaprod.github.io/publications/building-and-deploying-minio-langchain-agent-api/">Building and Deploying a MinIO-Powered LangChain Agent API with LangServe</a></strong></li>
+  <li><strong><a href="https://cdaprod.github.io/publications/dynamic-etl-pipeline-hydrate-ai-with-web-data/">Dynamic ETL Pipeline: Hydrate AI with Web Data for MinIO and Weaviate using Unstructured-IO</a></strong></li>
+  <li><strong><a href="https://cdaprod.github.io/publications/disaster-proof-minio-with-gitops/">Disaster Proof MinIO with GitOps</a></strong></li>
+  <li><strong><a href="https://cdaprod.github.io/publications/optimizing-ai-data-processing-with-minio-weaviate-and-langchain/">Optimizing AI Data Processing with MinIO Weaviate and Langchain in Retrieval Augmented Generation (RAG) Pipelines</a></strong></li>
+  <li><strong><a href="https://cdaprod.github.io/publications/the-future-of-hybrid-cloud-pipelines-integrating-minio-tailscale-and-github-actions/">The Future of Hybrid Cloud Pipelines: Integrating MinIO, Tailscale, and GitHub Actions</a></strong></li>
+  <li><strong><a href="https://cdaprod.github.io/publications/deploying-application-infrastructure-with-minio-s3-and-tailscale-vpn/">Deploying Application Infrastructure with MinIO S3 and Tailscale VPN</a></strong></li>
+</ol>
+
+<h2 id="categories">Categories</h2>
+
+<ul class="categories-list">
+  
+    <li><a href="/docs/categories/Microservices">Microservices</a> (1)</li>
+  
+</ul>
+
+<h2 id="tags">Tags</h2>
+
+<ul class="tags-list">
+  
+  
+    <li><a href="/docs/tags/CdaProdRegistry">Cdaprodregistry</a> (1)</li>
+  
+    <li><a href="/docs/tags/DevOps">Devops</a> (1)</li>
+  
+    <li><a href="/docs/tags/Microservices">Microservices</a> (1)</li>
+  
+    <li><a href="/docs/tags/Software%20Architecture">Software architecture</a> (1)</li>
+  
+</ul>
+
+  </main>
+  <!-- docs/_includes/footer.html -->
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2026 David Cannan. All rights reserved.</p>
+    <div class="social-links">
+      <a href="" target="_blank" aria-label="Twitter">
+        <img src="/docs/assets/images/twitter.svg" alt="Twitter Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="LinkedIn">
+        <img src="/docs/assets/images/linkedin.svg" alt="LinkedIn Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="Personal Website">
+        <img src="/docs/assets/images/website.svg" alt="Website Icon" />
+      </a>
+    </div>
+  </div>
+</footer>
+  <script src="/docs/assets/js/scripts.js"></script>
+</body>
+</html>

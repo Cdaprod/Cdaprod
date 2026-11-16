@@ -1,0 +1,642 @@
+<!-- docs/_layouts/default.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>df_repo_goals - Cdaprod</title>
+  <link rel="stylesheet" href="/docs/assets/css/styles.css">
+</head>
+<body>
+  <!-- docs/_includes/navbar.html -->
+
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="/docs/" class="navbar-logo">
+      <img src="/docs/assets/images/logos/logo.svg" alt="Cdaprod Logo" />
+    </a>
+    <button class="navbar-toggle" id="navbar-toggle">
+      &#9776; <!-- Hamburger Icon -->
+    </button>
+    <ul class="navbar-menu" id="navbar-menu">
+      <li class="">
+        <a href="/docs/">Home</a>
+      </li>
+      <li class="">
+        <a href="/docs/about/">About</a>
+      </li>
+      <li class="">
+        <a href="/docs/publications/">Publications</a>
+      </li>
+      <li class="">
+        <a href="/docs/articles/">Articles</a>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Categories</a>
+        <ul class="dropdown-content">
+          
+            <li>
+              <a href="/docs/categories/Microservices">Microservices</a>
+            </li>
+          
+        </ul>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Tags</a>
+        <ul class="dropdown-content">
+          
+          
+            <li>
+              <a href="/docs/tags/CdaProdRegistry">Cdaprodregistry</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/DevOps">Devops</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Microservices">Microservices</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Software%20Architecture">Software architecture</a>
+            </li>
+          
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Search Form -->
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
+    <button type="submit">Search</button>
+  </form>
+  <div id="search-results"></div>
+</nav>
+
+<!-- Script for Navbar Toggle -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('navbar-toggle');
+    const navbarMenu = document.getElementById('navbar-menu');
+
+    toggleButton.addEventListener('click', () => {
+      navbarMenu.classList.toggle('active');
+    });
+  });
+</script>
+  <!-- docs/_includes/breadcrumbs.html -->
+
+
+  <!-- docs/_includes/header.html -->
+
+<header class="site-header">
+  <div class="header-content">
+    <h1><a href="/docs/">Cdaprod</a></h1>
+    <p>A detailed documentation site integrating DevOps, AI, and technical writing projects.</p>
+  </div>
+</header>
+  <main>
+    <h3 id="df_repo_goals">df_repo_goals</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right"> </th>
+      <th style="text-align: left">Repository</th>
+      <th style="text-align: left">Specific Goal</th>
+      <th style="text-align: left">Measurable</th>
+      <th style="text-align: left">Achievable</th>
+      <th style="text-align: left">Relevant</th>
+      <th style="text-align: left">Time-bound</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0</td>
+      <td style="text-align: left">cda.langchain-templates</td>
+      <td style="text-align: left">Develop templates for LangChain projects.</td>
+      <td style="text-align: left">Complete 5 templates by Q2 2024</td>
+      <td style="text-align: left">Allocate weekly hours for template development, use existing LangChain projects as a base.</td>
+      <td style="text-align: left">Aligns with personal interest in LangChain technology and template design.</td>
+      <td style="text-align: left">Complete by Q2 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">cda.agents</td>
+      <td style="text-align: left">Create intelligent automation agents.</td>
+      <td style="text-align: left">Develop 3 automation agents by Q3 2024</td>
+      <td style="text-align: left">Collaborate with AI experts for agent development, leverage existing automation frameworks.</td>
+      <td style="text-align: left">Matches skill set in automation and AI, contributing to professional growth.</td>
+      <td style="text-align: left">Finish development by Q3 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">cda.Juno</td>
+      <td style="text-align: left">Enhance the Juno project for computational tasks.</td>
+      <td style="text-align: left">Add 2 new features to Juno by Q4 2024</td>
+      <td style="text-align: left">Assign dedicated resources for Juno project enhancements, conduct regular review meetings.</td>
+      <td style="text-align: left">Relevant to computational expertise and aligns with career goals in software development.</td>
+      <td style="text-align: left">Enhancement due by Q4 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">cda.actions</td>
+      <td style="text-align: left">Develop GitHub actions for automated workflows.</td>
+      <td style="text-align: left">Create 4 new GitHub actions by Q1 2024</td>
+      <td style="text-align: left">Utilize existing workflows and community contributions for GitHub action creation.</td>
+      <td style="text-align: left">Supports proficiency in automating workflows, crucial for DevOps practices.</td>
+      <td style="text-align: left">Ready for deployment by Q1 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">cda.data-lake</td>
+      <td style="text-align: left">Construct and refine a data lake for efficient data management.</td>
+      <td style="text-align: left">Incorporate advanced data processing in data-lake by Q3 2024</td>
+      <td style="text-align: left">Research and implement data lake best practices, attend data management workshops.</td>
+      <td style="text-align: left">Enhances data management skills, key in data-driven fields.</td>
+      <td style="text-align: left">Data-lake improvements by Q3 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">cda.ml-pipeline</td>
+      <td style="text-align: left">Build and optimize a machine learning pipeline.</td>
+      <td style="text-align: left">Deploy initial ML pipeline version by Q2 2024</td>
+      <td style="text-align: left">Collaborate with data scientists for ML pipeline development, participate in ML forums.</td>
+      <td style="text-align: left">Aligns with interest in machine learning and data science.</td>
+      <td style="text-align: left">First version by Q2 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">6</td>
+      <td style="text-align: left">cda.notebooks</td>
+      <td style="text-align: left">Curate Jupyter notebooks for data science projects.</td>
+      <td style="text-align: left">Compile 10 Jupyter notebooks for data science by Q3 2024</td>
+      <td style="text-align: left">Gather and analyze various data science use cases for notebook creation.</td>
+      <td style="text-align: left">Supports ongoing learning in data science, beneficial for professional development.</td>
+      <td style="text-align: left">Compilation complete by Q3 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">7</td>
+      <td style="text-align: left">cda.CMS_Automation_Pipeline</td>
+      <td style="text-align: left">Create an automated CMS pipeline.</td>
+      <td style="text-align: left">Automate 3 major CMS tasks by Q4 2024</td>
+      <td style="text-align: left">Integrate CMS with existing content creation workflows, conduct user experience tests.</td>
+      <td style="text-align: left">Contributes to skills in CMS and automation, relevant for web development roles.</td>
+      <td style="text-align: left">Automated pipeline by Q4 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">8</td>
+      <td style="text-align: left">cda.ml-pipeline</td>
+      <td style="text-align: left">Develop a robust machine learning pipeline.</td>
+      <td style="text-align: left">Enhance ML pipeline with 2 new features by Q1 2024</td>
+      <td style="text-align: left">Continuously gather feedback from ML users to enhance the pipeline.</td>
+      <td style="text-align: left">Aligns with advanced ML interests, important for a career in AI.</td>
+      <td style="text-align: left">Feature integration by Q1 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">9</td>
+      <td style="text-align: left">cda.data</td>
+      <td style="text-align: left">Manage and organize various datasets.</td>
+      <td style="text-align: left">Organize and document 5 major datasets by Q2 2024</td>
+      <td style="text-align: left">Regularly update datasets with latest information, create a data contribution guideline.</td>
+      <td style="text-align: left">Relevant for developing data organization and management skills.</td>
+      <td style="text-align: left">Data organization by Q2 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">10</td>
+      <td style="text-align: left">cda.databases</td>
+      <td style="text-align: left">Establish a database scripts repository.</td>
+      <td style="text-align: left">Script and document 5 database solutions by Q3 2024</td>
+      <td style="text-align: left">Document database scripts and share with the community for feedback.</td>
+      <td style="text-align: left">Aids in mastering database management, a crucial skill in software development.</td>
+      <td style="text-align: left">Script documentation by Q3 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">11</td>
+      <td style="text-align: left">cda.s3</td>
+      <td style="text-align: left">Develop AWS S3 management tools.</td>
+      <td style="text-align: left">Implement 3 S3 management tools by Q4 2024</td>
+      <td style="text-align: left">Stay updated with AWS S3 updates and integrate new features into tools.</td>
+      <td style="text-align: left">Enhances understanding of cloud storage solutions, vital for cloud engineering roles.</td>
+      <td style="text-align: left">Tool development by Q4 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">12</td>
+      <td style="text-align: left">cda.docker</td>
+      <td style="text-align: left">Create Docker configurations for different environments.</td>
+      <td style="text-align: left">Configure 5 Docker setups by Q1 2024</td>
+      <td style="text-align: left">Experiment with different Docker configurations in a test environment.</td>
+      <td style="text-align: left">Develops containerization skills, essential in modern software deployment.</td>
+      <td style="text-align: left">Configuration setup by Q1 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">13</td>
+      <td style="text-align: left">cda.kubernetes</td>
+      <td style="text-align: left">Develop Kubernetes configurations for cloud applications.</td>
+      <td style="text-align: left">Set up 3 Kubernetes clusters for deployment by Q2 2024</td>
+      <td style="text-align: left">Use cloud-based Kubernetes environments for testing and learning.</td>
+      <td style="text-align: left">Relevant for cloud-native application development, a key area in cloud computing.</td>
+      <td style="text-align: left">Cluster setup by Q2 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">14</td>
+      <td style="text-align: left">cda.jenkins</td>
+      <td style="text-align: left">Build Jenkins pipelines for CI/CD processes.</td>
+      <td style="text-align: left">Develop 5 Jenkins CI/CD pipelines by Q3 2024</td>
+      <td style="text-align: left">Attend Jenkins user conferences and incorporate community best practices.</td>
+      <td style="text-align: left">Enhances CI/CD skills, crucial for modern software engineering practices.</td>
+      <td style="text-align: left">Pipeline creation by Q3 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">15</td>
+      <td style="text-align: left">cda.weaviate</td>
+      <td style="text-align: left">Enhance Weaviate for data storage and retrieval.</td>
+      <td style="text-align: left">Add 3 new data models to Weaviate by Q4 2024</td>
+      <td style="text-align: left">Engage with the Weaviate community for feature ideas and implementation.</td>
+      <td style="text-align: left">Supports interests in innovative data storage solutions, aligning with career in data engineering.</td>
+      <td style="text-align: left">Model addition by Q4 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">16</td>
+      <td style="text-align: left">cda.WeaviateApiFrontend</td>
+      <td style="text-align: left">Develop a front-end interface for Weaviate.</td>
+      <td style="text-align: left">Complete Weaviate front-end prototype by Q1 2024</td>
+      <td style="text-align: left">Prototype Weaviate front-end with user-centered design principles.</td>
+      <td style="text-align: left">Aligns with front-end development skills and interests in user interface design.</td>
+      <td style="text-align: left">Prototype completion by Q1 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">17</td>
+      <td style="text-align: left">cda.webhooks</td>
+      <td style="text-align: left">Create a collection of webhooks for automation.</td>
+      <td style="text-align: left">Create 4 automated webhooks for integration tasks by Q2 2024</td>
+      <td style="text-align: left">Test webhooks in a controlled environment before deployment.</td>
+      <td style="text-align: left">Matches interest in system integration and automating workflows.</td>
+      <td style="text-align: left">Webhook integration by Q2 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">18</td>
+      <td style="text-align: left">cda.Index-Videos</td>
+      <td style="text-align: left">Develop a system for video content indexing.</td>
+      <td style="text-align: left">Index and categorize 100 videos by Q3 2024</td>
+      <td style="text-align: left">Utilize video processing software for efficient indexing, collaborate with media experts.</td>
+      <td style="text-align: left">Relevant to interests in multimedia data processing and management.</td>
+      <td style="text-align: left">Indexing completion by Q3 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">19</td>
+      <td style="text-align: left">cda.dotfiles</td>
+      <td style="text-align: left">Maintain a repository of system configuration dotfiles.</td>
+      <td style="text-align: left">Update and optimize dotfiles configurations by Q4 2024</td>
+      <td style="text-align: left">Regularly review and update dotfiles based on personal and community feedback.</td>
+      <td style="text-align: left">Supports system configuration skills, important for system administration roles.</td>
+      <td style="text-align: left">Configuration update by Q4 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">20</td>
+      <td style="text-align: left">cda.faas</td>
+      <td style="text-align: left">Build a Functions as a Service (FaaS) repository.</td>
+      <td style="text-align: left">Develop 3 cloud-based functions for FaaS by Q1 2024</td>
+      <td style="text-align: left">Attend cloud computing workshops for FaaS development insights.</td>
+      <td style="text-align: left">Aligns with cloud computing and serverless architecture interests.</td>
+      <td style="text-align: left">FaaS development by Q1 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">21</td>
+      <td style="text-align: left">cda.pull</td>
+      <td style="text-align: left">Automate pull requests in development workflows.</td>
+      <td style="text-align: left">Automate 5 types of pull requests by Q2 2024</td>
+      <td style="text-align: left">Automate common pull request patterns identified in past projects.</td>
+      <td style="text-align: left">Enhances skills in automating development processes, important for efficient workflow management.</td>
+      <td style="text-align: left">Pull request automation by Q2 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">22</td>
+      <td style="text-align: left">cda.resumes</td>
+      <td style="text-align: left">Update and refine resumes.</td>
+      <td style="text-align: left">Update and refine 3 resume templates by Q3 2024</td>
+      <td style="text-align: left">Update resumes based on latest industry trends and personal achievements.</td>
+      <td style="text-align: left">Aligns with personal branding and career development goals.</td>
+      <td style="text-align: left">Resume updates by Q3 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">23</td>
+      <td style="text-align: left">cda.snippets</td>
+      <td style="text-align: left">Compile a repository of code snippets.</td>
+      <td style="text-align: left">Add 20 new code snippets by Q4 2024</td>
+      <td style="text-align: left">Collect snippets from ongoing projects and community forums.</td>
+      <td style="text-align: left">Supports code management and snippet collection, useful for software development.</td>
+      <td style="text-align: left">Snippet addition by Q4 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">24</td>
+      <td style="text-align: left">cda.superagent</td>
+      <td style="text-align: left">Develop scripts for system monitoring.</td>
+      <td style="text-align: left">Script 5 new system monitoring tools by Q1 2024</td>
+      <td style="text-align: left">Monitor system performance, seek feedback from end users for new script ideas.</td>
+      <td style="text-align: left">Matches interests in system monitoring and cybersecurity.</td>
+      <td style="text-align: left">Script development by Q1 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">25</td>
+      <td style="text-align: left">cda.ZoomVirtualOverlay</td>
+      <td style="text-align: left">Enhance Zoom meetings with virtual overlays.</td>
+      <td style="text-align: left">Integrate 3 virtual overlay features for Zoom by Q2 2024</td>
+      <td style="text-align: left">Experiment with Zoom SDK for overlay feature integration.</td>
+      <td style="text-align: left">Aligns with remote communication skills, important in current work environments.</td>
+      <td style="text-align: left">Overlay features by Q2 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">26</td>
+      <td style="text-align: left">cda.knowledge-platform</td>
+      <td style="text-align: left">Build a comprehensive knowledge sharing platform.</td>
+      <td style="text-align: left">Launch initial version of knowledge platform by Q3 2024</td>
+      <td style="text-align: left">Gather knowledge content from personal experience and community contributions.</td>
+      <td style="text-align: left">Supports interest in knowledge sharing and community engagement.</td>
+      <td style="text-align: left">Platform launch by Q3 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">27</td>
+      <td style="text-align: left">cda.nginx</td>
+      <td style="text-align: left">Develop Nginx configuration best practices.</td>
+      <td style="text-align: left">Document 5 Nginx configurations by Q4 2024</td>
+      <td style="text-align: left">Test and document Nginx configurations in different server environments.</td>
+      <td style="text-align: left">Develops web server management skills, relevant for roles in system administration.</td>
+      <td style="text-align: left">Nginx documentation by Q4 2024</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="df_minio_goals">df_minio_goals</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right"> </th>
+      <th style="text-align: left">Project</th>
+      <th style="text-align: left">Specific</th>
+      <th style="text-align: left">Measurable</th>
+      <th style="text-align: left">Achievable</th>
+      <th style="text-align: left">Relevant</th>
+      <th style="text-align: left">Time-bound</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0</td>
+      <td style="text-align: left">MinIO Weaviate Integration</td>
+      <td style="text-align: left">Integrate Weaviate with MinIO for enhanced data storage and retrieval.</td>
+      <td style="text-align: left">Successful deployment and 20% improvement in data retrieval time.</td>
+      <td style="text-align: left">Collaborate with Weaviate developers, conduct integration testing.</td>
+      <td style="text-align: left">Enhances data management capabilities of MinIO with Weaviate’s features.</td>
+      <td style="text-align: left">Q2 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">MinIO Langchain Integration</td>
+      <td style="text-align: left">Combine Langchain capabilities with MinIO for improved data processing.</td>
+      <td style="text-align: left">Integration completed and 15% increase in data processing efficiency.</td>
+      <td style="text-align: left">Leverage Langchain’s API, conduct pilot tests with sample data.</td>
+      <td style="text-align: left">Combines NLP processing with storage, aligning with big data trends.</td>
+      <td style="text-align: left">Q3 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">MinIO Bucket as a Vectorstore Integration</td>
+      <td style="text-align: left">Use MinIO buckets to store vector data efficiently.</td>
+      <td style="text-align: left">Vectorstore integration tested and operational.</td>
+      <td style="text-align: left">Optimize MinIO buckets for vector storage, test with real-world data.</td>
+      <td style="text-align: left">Addresses the need for efficient vector data storage in machine learning.</td>
+      <td style="text-align: left">Q4 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">MinIO ChatGPT Integration</td>
+      <td style="text-align: left">Integrate ChatGPT with MinIO for AI-driven data interactions.</td>
+      <td style="text-align: left">ChatGPT integration functional with user satisfaction above 80%.</td>
+      <td style="text-align: left">Utilize MinIO’s API and ChatGPT’s capabilities for integration.</td>
+      <td style="text-align: left">Leverages AI for enhanced data interaction, staying ahead in tech.</td>
+      <td style="text-align: left">Q1 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">MinIO Stock Video AI Video Editor &amp; Metadata App</td>
+      <td style="text-align: left">Develop an AI-powered video editing and metadata tagging app using MinIO.</td>
+      <td style="text-align: left">App development completed with successful tagging of 1000 videos.</td>
+      <td style="text-align: left">Gather AI video editing tools, integrate with MinIO for metadata storage.</td>
+      <td style="text-align: left">Fulfills the growing demand for AI in video editing and metadata management.</td>
+      <td style="text-align: left">Q2 2024</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">MinIO Bucket as an Index</td>
+      <td style="text-align: left">Implement MinIO buckets as an indexing solution for large datasets.</td>
+      <td style="text-align: left">Indexing solution implemented and operational for a dataset of over 10TB.</td>
+      <td style="text-align: left">Develop indexing algorithms, test with MinIO storage solutions.</td>
+      <td style="text-align: left">Solves large dataset indexing challenges, improving data accessibility.</td>
+      <td style="text-align: left">Q3 2024</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="df_smart_goals_articles">df_smart_goals_articles</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right"> </th>
+      <th style="text-align: left">Project/Repository</th>
+      <th style="text-align: left">Specific</th>
+      <th style="text-align: left">Measurable</th>
+      <th style="text-align: left">Achievable</th>
+      <th style="text-align: left">Relevant</th>
+      <th style="text-align: left">Time-bound</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0</td>
+      <td style="text-align: left">MinIO Weaviate Integration</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">MinIO Langchain Integration</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">MinIO Bucket as a Vectorstore Integration</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">MinIO ChatGPT Integration</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">MinIO Stock Video AI Video Editor &amp; Metadata App</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">MinIO Bucket as an Index</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">6</td>
+      <td style="text-align: left">cda.langchain-templates</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">7</td>
+      <td style="text-align: left">cda.agents</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">8</td>
+      <td style="text-align: left">cda.Juno</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">9</td>
+      <td style="text-align: left">cda.actions</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">10</td>
+      <td style="text-align: left">cda.data-lake</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">11</td>
+      <td style="text-align: left">cda.ml-pipeline</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">12</td>
+      <td style="text-align: left">cda.notebooks</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">13</td>
+      <td style="text-align: left">cda.CMS_Automation_Pipeline</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">14</td>
+      <td style="text-align: left">cda.data</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">15</td>
+      <td style="text-align: left">cda.databases</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">16</td>
+      <td style="text-align: left">cda.s3</td>
+      <td style="text-align: left">Write an article on Project/Repository detailing its purpose, design, and implementation.</td>
+      <td style="text-align: left">Each article to be at least 1500 words with key technical insights.</td>
+      <td style="text-align: left">Research project details, interview developers, and gather data for each article.</td>
+      <td style="text-align: left">Articles to enhance understanding and visibility of MinIO integrations and projects.</td>
+      <td style="text-align: left">One article per month, rotating through the list of projects.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+  </main>
+  <!-- docs/_includes/footer.html -->
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2026 David Cannan. All rights reserved.</p>
+    <div class="social-links">
+      <a href="" target="_blank" aria-label="Twitter">
+        <img src="/docs/assets/images/twitter.svg" alt="Twitter Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="LinkedIn">
+        <img src="/docs/assets/images/linkedin.svg" alt="LinkedIn Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="Personal Website">
+        <img src="/docs/assets/images/website.svg" alt="Website Icon" />
+      </a>
+    </div>
+  </div>
+</footer>
+  <script src="/docs/assets/js/scripts.js"></script>
+</body>
+</html>

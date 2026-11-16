@@ -1,0 +1,135 @@
+<!-- docs/_layouts/default.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> - Cdaprod</title>
+  <link rel="stylesheet" href="/docs/assets/css/styles.css">
+</head>
+<body>
+  <!-- docs/_includes/navbar.html -->
+
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="/docs/" class="navbar-logo">
+      <img src="/docs/assets/images/logos/logo.svg" alt="Cdaprod Logo" />
+    </a>
+    <button class="navbar-toggle" id="navbar-toggle">
+      &#9776; <!-- Hamburger Icon -->
+    </button>
+    <ul class="navbar-menu" id="navbar-menu">
+      <li class="">
+        <a href="/docs/">Home</a>
+      </li>
+      <li class="">
+        <a href="/docs/about/">About</a>
+      </li>
+      <li class="">
+        <a href="/docs/publications/">Publications</a>
+      </li>
+      <li class="">
+        <a href="/docs/articles/">Articles</a>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Categories</a>
+        <ul class="dropdown-content">
+          
+            <li>
+              <a href="/docs/categories/Microservices">Microservices</a>
+            </li>
+          
+        </ul>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Tags</a>
+        <ul class="dropdown-content">
+          
+          
+            <li>
+              <a href="/docs/tags/CdaProdRegistry">Cdaprodregistry</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/DevOps">Devops</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Microservices">Microservices</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Software%20Architecture">Software architecture</a>
+            </li>
+          
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Search Form -->
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
+    <button type="submit">Search</button>
+  </form>
+  <div id="search-results"></div>
+</nav>
+
+<!-- Script for Navbar Toggle -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('navbar-toggle');
+    const navbarMenu = document.getElementById('navbar-menu');
+
+    toggleButton.addEventListener('click', () => {
+      navbarMenu.classList.toggle('active');
+    });
+  });
+</script>
+  <!-- docs/_includes/breadcrumbs.html -->
+
+
+  <!-- docs/_includes/header.html -->
+
+<header class="site-header">
+  <div class="header-content">
+    <h1><a href="/docs/">Cdaprod</a></h1>
+    <p>A detailed documentation site integrating DevOps, AI, and technical writing projects.</p>
+  </div>
+</header>
+  <main>
+    <p>I’m David Cannan, the driving force behind the Cdaprod brand, and I’m deeply interested in pursuing a career in cybersecurity. The aspect of cybersecurity that captivates me most is its ever-evolving nature and the opportunity it presents for continuous learning and innovation, especially in areas like threat detection and mitigation.</p>
+
+<p>Throughout this journey, I’m eager to deepen my understanding of SIEM tools and other strategies for identifying and mitigating threats, risks, and vulnerabilities. As a cybersecurity analyst, my primary goal is to leverage my skills to protect organizations and their data from cyber threats, thus contributing to a safer digital environment.</p>
+
+<p>Two of my key strengths are my problem-solving abilities and my skill in using various programming languages to develop efficient, secure solutions. These strengths, which I intend to continue honing throughout this program, enable me to tackle complex cybersecurity challenges effectively.</p>
+
+<p>My core values include a staunch commitment to upholding an individual’s right to privacy and a dedication to helping organizations ensure that their confidential data remains secure. These values guide my actions and decisions in the field of cybersecurity.</p>
+
+<p>In summary, I’m a problem-solving cybersecurity enthusiast who is committed to privacy and data security. My programming skills and problem-solving abilities, combined with my strong values, drive me to contribute meaningfully to cybersecurity and protect organizations from cyber threats.</p>
+
+<p>As I progress in my professional development, I am dedicated to updating this statement to reflect my growing skills and knowledge, ensuring that potential employers see a genuine and accurate representation of my evolving capabilities and intentions in the cybersecurity profession.</p>
+
+  </main>
+  <!-- docs/_includes/footer.html -->
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2026 David Cannan. All rights reserved.</p>
+    <div class="social-links">
+      <a href="" target="_blank" aria-label="Twitter">
+        <img src="/docs/assets/images/twitter.svg" alt="Twitter Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="LinkedIn">
+        <img src="/docs/assets/images/linkedin.svg" alt="LinkedIn Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="Personal Website">
+        <img src="/docs/assets/images/website.svg" alt="Website Icon" />
+      </a>
+    </div>
+  </div>
+</footer>
+  <script src="/docs/assets/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!-- docs/_layouts/default.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelance AI Consulting Services - Cdaprod</title>
+  <link rel="stylesheet" href="/docs/assets/css/styles.css">
+</head>
+<body>
+  <!-- docs/_includes/navbar.html -->
+
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="/docs/" class="navbar-logo">
+      <img src="/docs/assets/images/logos/logo.svg" alt="Cdaprod Logo" />
+    </a>
+    <button class="navbar-toggle" id="navbar-toggle">
+      &#9776; <!-- Hamburger Icon -->
+    </button>
+    <ul class="navbar-menu" id="navbar-menu">
+      <li class="">
+        <a href="/docs/">Home</a>
+      </li>
+      <li class="">
+        <a href="/docs/about/">About</a>
+      </li>
+      <li class="">
+        <a href="/docs/publications/">Publications</a>
+      </li>
+      <li class="">
+        <a href="/docs/articles/">Articles</a>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Categories</a>
+        <ul class="dropdown-content">
+          
+            <li>
+              <a href="/docs/categories/Microservices">Microservices</a>
+            </li>
+          
+        </ul>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Tags</a>
+        <ul class="dropdown-content">
+          
+          
+            <li>
+              <a href="/docs/tags/CdaProdRegistry">Cdaprodregistry</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/DevOps">Devops</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Microservices">Microservices</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Software%20Architecture">Software architecture</a>
+            </li>
+          
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Search Form -->
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
+    <button type="submit">Search</button>
+  </form>
+  <div id="search-results"></div>
+</nav>
+
+<!-- Script for Navbar Toggle -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('navbar-toggle');
+    const navbarMenu = document.getElementById('navbar-menu');
+
+    toggleButton.addEventListener('click', () => {
+      navbarMenu.classList.toggle('active');
+    });
+  });
+</script>
+  <!-- docs/_includes/breadcrumbs.html -->
+
+
+  <!-- docs/_includes/header.html -->
+
+<header class="site-header">
+  <div class="header-content">
+    <h1><a href="/docs/">Cdaprod</a></h1>
+    <p>A detailed documentation site integrating DevOps, AI, and technical writing projects.</p>
+  </div>
+</header>
+  <main>
+    <style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #333;
+    color: white;
+  }
+  h1, h2, h3 {
+    color: #333;
+  }
+  p {
+    margin: 10px 0;
+  }
+</style>
+
+<header>
+  <h1>Freelance AI Consulting Services</h1>
+</header>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Welcome to my freelance AI consulting services. With extensive experience in AIOps, DevOps, and open-source object storage solutions, I offer a range of consulting services designed to help you leverage AI technologies effectively and securely. My expertise is backed by several impactful publications and hands-on projects in the AI and DevOps space.</p>
+
+<h2 id="consulting-services-and-pricing">Consulting Services and Pricing</h2>
+
+<p>Below is a detailed breakdown of my consulting services and pricing models. These rates are designed to reflect the value and expertise I bring to your projects.</p>
+
+<h3 id="hourly-rate-calculation">Hourly Rate Calculation</h3>
+
+<p>To ensure transparent and fair pricing, my hourly consulting rate is derived from a full-time salary equivalent of $150,000 per year. Here’s how the calculation is done:</p>
+
+<ul>
+  <li><strong>Annual Salary</strong>: $150,000</li>
+  <li><strong>Work Weeks per Year</strong>: 52</li>
+  <li><strong>Hours per Week</strong>: 40</li>
+  <li><strong>Total Work Hours per Year</strong>: 52 * 40 = 2080 hours</li>
+</ul>
+
+<p><strong>Base Hourly Rate</strong>:</p>
+<ul>
+  <li>$150,000 / 2080 hours ≈ $72 per hour</li>
+</ul>
+
+<p><strong>Consulting Premium</strong>:
+Consultants typically charge 2-3 times the base rate to cover business expenses, taxes, benefits, and the value of their expertise. Using a multiplier of 2.5:</p>
+
+<p><strong>Consulting Hourly Rate</strong>:</p>
+<ul>
+  <li>$72 * 2.5 ≈ $180 per hour</li>
+</ul>
+
+<h3 id="pricing-models">Pricing Models</h3>
+
+<p>I offer flexible pricing models to meet your specific needs, whether you require one-time consulting or ongoing support.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Service Package</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Hours Included</strong></th>
+      <th><strong>Price</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hourly Consulting</td>
+      <td>Pay-as-you-go consulting services</td>
+      <td>Per hour</td>
+      <td>$180/hour</td>
+    </tr>
+    <tr>
+      <td>Basic Assessment Package</td>
+      <td>Detailed project assessment and report</td>
+      <td>10 hours</td>
+      <td>$1,800</td>
+    </tr>
+    <tr>
+      <td>Full Implementation Package</td>
+      <td>Comprehensive implementation and training</td>
+      <td>30 hours</td>
+      <td>$5,400</td>
+    </tr>
+    <tr>
+      <td>Ongoing Support Package</td>
+      <td>Monthly retainer for regular support</td>
+      <td>20 hours/month</td>
+      <td>$3,600/month</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="service-packages">Service Packages</h2>
+
+<h3 id="hourly-consulting">Hourly Consulting</h3>
+<p>For clients who need flexible and on-demand consulting services, my hourly rate is set at $180 per hour. This option is ideal for short-term projects or specific tasks that require expert input.</p>
+
+<h3 id="basic-assessment-package">Basic Assessment Package</h3>
+<p>The Basic Assessment Package includes a thorough project assessment and a detailed report with recommendations. This package includes 10 hours of consulting for a total price of $1,800.</p>
+
+<h3 id="full-implementation-package">Full Implementation Package</h3>
+<p>For clients who need comprehensive implementation services, this package covers the complete setup and initial training for your project. It includes 30 hours of consulting for a total price of $5,400.</p>
+
+<h3 id="ongoing-support-package">Ongoing Support Package</h3>
+<p>The Ongoing Support Package is designed for clients who require continuous support and updates. This monthly retainer includes 20 hours of consulting per month for $3,600 per month.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>By choosing my consulting services, you gain access to a wealth of experience and expertise in AI and DevOps. My pricing models are designed to be transparent and fair, ensuring that you receive exceptional value for your investment. Let’s work together to leverage AI technologies and drive your projects to success.</p>
+
+<p>For more information or to schedule a consultation, please contact me at [your contact information].</p>
+
+<p>Thank you for considering my freelance AI consulting services.</p>
+
+  </main>
+  <!-- docs/_includes/footer.html -->
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2026 David Cannan. All rights reserved.</p>
+    <div class="social-links">
+      <a href="" target="_blank" aria-label="Twitter">
+        <img src="/docs/assets/images/twitter.svg" alt="Twitter Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="LinkedIn">
+        <img src="/docs/assets/images/linkedin.svg" alt="LinkedIn Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="Personal Website">
+        <img src="/docs/assets/images/website.svg" alt="Website Icon" />
+      </a>
+    </div>
+  </div>
+</footer>
+  <script src="/docs/assets/js/scripts.js"></script>
+</body>
+</html>

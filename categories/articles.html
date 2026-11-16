@@ -1,0 +1,125 @@
+<!-- docs/_layouts/default.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> - Cdaprod</title>
+  <link rel="stylesheet" href="/docs/assets/css/styles.css">
+</head>
+<body>
+  <!-- docs/_includes/navbar.html -->
+
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="/docs/" class="navbar-logo">
+      <img src="/docs/assets/images/logos/logo.svg" alt="Cdaprod Logo" />
+    </a>
+    <button class="navbar-toggle" id="navbar-toggle">
+      &#9776; <!-- Hamburger Icon -->
+    </button>
+    <ul class="navbar-menu" id="navbar-menu">
+      <li class="">
+        <a href="/docs/">Home</a>
+      </li>
+      <li class="">
+        <a href="/docs/about/">About</a>
+      </li>
+      <li class="">
+        <a href="/docs/publications/">Publications</a>
+      </li>
+      <li class="">
+        <a href="/docs/articles/">Articles</a>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Categories</a>
+        <ul class="dropdown-content">
+          
+            <li>
+              <a href="/docs/categories/Microservices">Microservices</a>
+            </li>
+          
+        </ul>
+      </li>
+      <li class="dropdown ">
+        <a href="#">Tags</a>
+        <ul class="dropdown-content">
+          
+          
+            <li>
+              <a href="/docs/tags/CdaProdRegistry">Cdaprodregistry</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/DevOps">Devops</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Microservices">Microservices</a>
+            </li>
+          
+            <li>
+              <a href="/docs/tags/Software%20Architecture">Software architecture</a>
+            </li>
+          
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Search Form -->
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
+    <button type="submit">Search</button>
+  </form>
+  <div id="search-results"></div>
+</nav>
+
+<!-- Script for Navbar Toggle -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('navbar-toggle');
+    const navbarMenu = document.getElementById('navbar-menu');
+
+    toggleButton.addEventListener('click', () => {
+      navbarMenu.classList.toggle('active');
+    });
+  });
+</script>
+  <!-- docs/_includes/breadcrumbs.html -->
+
+
+  <!-- docs/_includes/header.html -->
+
+<header class="site-header">
+  <div class="header-content">
+    <h1><a href="/docs/">Cdaprod</a></h1>
+    <p>A detailed documentation site integrating DevOps, AI, and technical writing projects.</p>
+  </div>
+</header>
+  <main>
+    
+
+  </main>
+  <!-- docs/_includes/footer.html -->
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2026 David Cannan. All rights reserved.</p>
+    <div class="social-links">
+      <a href="" target="_blank" aria-label="Twitter">
+        <img src="/docs/assets/images/twitter.svg" alt="Twitter Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="LinkedIn">
+        <img src="/docs/assets/images/linkedin.svg" alt="LinkedIn Icon" />
+      </a>
+      <a href="" target="_blank" aria-label="Personal Website">
+        <img src="/docs/assets/images/website.svg" alt="Website Icon" />
+      </a>
+    </div>
+  </div>
+</footer>
+  <script src="/docs/assets/js/scripts.js"></script>
+</body>
+</html>
