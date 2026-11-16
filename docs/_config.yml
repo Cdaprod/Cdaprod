@@ -1,5 +1,6 @@
 # _config.yml (Adapted for Cdaprod)
-theme: jekyll-theme-chirpy
+# Use the repository's own docs/_layouts instead of an unavailable GitHub Pages theme gem.
+# theme: jekyll-theme-chirpy
 
 lang: en
 timezone: America/New_York  # Set to your preferred timezone
