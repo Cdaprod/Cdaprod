@@ -19,19 +19,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Step 2: Set up Ruby environment
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.0  # Specify the Ruby version
-
-      # Step 3: Install dependencies using Bundler
-      - name: Install Dependencies
-        run: |
-          gem install bundler
-          bundle install
-
-      # Step 4: Build the Jekyll Site
+      # The jekyll-build-pages action manages its own dependencies; this repository has no root Gemfile.
+      # Build the Jekyll Site
       - name: Build Jekyll Site
         uses: actions/jekyll-build-pages@v1
         with:
